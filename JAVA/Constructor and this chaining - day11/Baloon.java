@@ -37,7 +37,9 @@ class Baloon{
 	
 	public Baloon(String color,String shape,String desing,double size,int noOfBaloon){
 		this(color,shape,desing,size);
-		//this(noOfBaloon);
+		//this(noOfBaloon);errorrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+		//rrrrrrrrrrrrrrrrrrrrrrrrrrrr
+		//rrrrrrrrrrrrrrrrrrrrr
 		this.noOfBaloon = noOfBaloon;
 		System.out.println("constructor 5: with 5 variable");
 	}
@@ -54,7 +56,7 @@ class Baloon{
 		System.out.println("constructor 7: with 7 variable");
 	}
 	
-	public  void display(){
+	public void display(){
 		System.out.println("dispayling the all the values");
 		System.out.println("Color :"+this.color);
 		System.out.println("Shape :"+this.shape);

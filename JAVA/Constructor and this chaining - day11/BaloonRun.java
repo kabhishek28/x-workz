@@ -15,6 +15,32 @@ class BaloonRun{
 		System.out.println("------------------------------------------------");
 		Baloon baloon7 = new Baloon("white","hareat","patch",9.2,21,105,3);
 		System.out.println("------------------------------------------------");
+		//System.out.println("Displaying data of the instances 1: "+baloon1.display()); // error
+		//rrrrrrrrrrrrrrrr
+		//rrrrrrrrrrrrrrr
+		System.out.println("**********************DISPLAY**************************");
+		System.out.println("Displaying data of the instances 1: ");
+		baloon1.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 2: ");
+		baloon2.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 3: ");
+		baloon3.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 4: ");
+		baloon4.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 5: ");
+		baloon5.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 6: ");
+		baloon6.display();
+		System.out.println("************************************************");
+		System.out.println("Displaying data of the instances 7: ");
+		baloon7.display();
+		System.out.println("************************************************");
+		
 
 
 	}
