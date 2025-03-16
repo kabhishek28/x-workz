@@ -15,7 +15,7 @@ class Baloon{
 		
 	}
 
-	public Baloon(String color,String shape){
+	public  Baloon(String color,String shape){
 		
 		this();
 		this.color = color;
