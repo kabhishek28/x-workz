@@ -13,4 +13,4 @@ Hello! I'm **K Abhishek**, a **Software Developer Intern at X-Workz**. I have a 
 
 ## 📫 Let's Connect!  
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/kabhishek28)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/your-profile)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/abhishek-k-2b8261264)
