@@ -4,8 +4,7 @@ public class Shop {
 
     //System.out.println("now in sied the shop class");
     public void ads(Display display){
-        System.out.println("now in sied the shop class ads method");
-        System.out.println("invoking the run method from display class");
+        System.out.println("class Shop method ads : Dabar paste");
         display.run();
     }
 }
