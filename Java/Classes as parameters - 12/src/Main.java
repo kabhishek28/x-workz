@@ -1,6 +1,6 @@
 import Class_Parameter.*;
 
-import java.sql.SQLOutput;
+
 
 
 public class Main {
@@ -8,7 +8,8 @@ public class Main {
 
         System.out.println("-----------------------------------------------------------START--------------------------------------------------------------------------");
 
-        System.out.println("====================programming 1=====================");        Shop shop = new Shop();
+        System.out.println("====================programming 1=====================");
+        Shop shop = new Shop();
         Display display = new Display();
         shop.ads(display);
 
