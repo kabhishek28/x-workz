@@ -1,5 +1,4 @@
 package com.xworkz.ClasswithInstanceVariableAsDataType.Clip;
-
 class ClipRun {
     public static void main(String[] args) {
         Clip clip1 = new Clip();
