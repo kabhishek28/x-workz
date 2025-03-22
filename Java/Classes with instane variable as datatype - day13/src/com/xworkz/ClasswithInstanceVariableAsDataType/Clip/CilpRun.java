@@ -22,11 +22,6 @@ class ClipRun {
         pushpa.clip = clips;
         pushpa.useClip();
 
-
-
-
-
-
     }
 }
 
