@@ -15,8 +15,8 @@ public class Minister {
         this.party = party;
     }
 
-    public void getMinister(){
-        //System.out.println("-----------MINISTER-----------------");
+    public void getMinister(int i){
+        //System.out.println("**********************MINISTER***********************");
         System.out.println("Minister name :"+this.name);
         System.out.println("Minister age :"+this.age);
         System.out.println("Minister Department :"+this.department);

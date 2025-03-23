@@ -9,12 +9,12 @@ public class Country {
 
 
     void display(){
-        System.out.println("---------COUNTRY-------------");
+        System.out.println("_______________________________COUNTRY______________________________________");
         System.out.println("Name :"+name);
         System.out.println("Country Type :"+type);
         System.out.println("Population :"+population);
         System.out.println("Year Of Independence :"+yearOfIndependence);
-        System.out.println("------------------------------");
+       // System.out.println("************************************************************************");
         primeMinister.getPrimeMinister();
     }
 
