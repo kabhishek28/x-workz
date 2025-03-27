@@ -9,7 +9,8 @@ Hello! I'm **K Abhishek**, a **Software Developer Intern at X-Workz**. I have a 
 ![CSS](https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)  
 
  ## 📊 GitHub Streak Stats  
-![GitHub Streak](https://your-uploaded-image-url.com)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=kabhishek28&theme=radical)
+
 
 
 
