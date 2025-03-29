@@ -10,9 +10,7 @@ Hello! I'm **K Abhishek**, a **Software Developer Intern at X-Workz**. I have a 
 
  
 ## 📊 GitHub Streak Stats  
-![GitHub Streak](https://streak-stats.demolab.com/?user=kabhishek28&theme=radical)  
-
-
+![GitHub Streak](https://streak-stats.demolab.com?user=kabhishek28&theme=radical)
 
 ## 📫 Let's Connect!  
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=for-the-badge&logo=github)](https://github.com/kabhishek28)  
