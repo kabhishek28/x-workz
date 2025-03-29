@@ -8,6 +8,16 @@ public class Country {
     PrimeMinister primeMinister = new PrimeMinister();
 
 
+    public  Country()
+    {
+
+    }
+
+    Country(PrimeMinister primeMinister)
+    {
+        this.primeMinister=primeMinister;
+    }
+
     void display(){
         System.out.println("_______________________________COUNTRY______________________________________");
         System.out.println("Name :"+name);

@@ -5,9 +5,7 @@ import Class_Parameter.*;
 
 public class Main {
     public static void main(String[] args) {
-
         System.out.println("-----------------------------------------------------------START--------------------------------------------------------------------------");
-
         System.out.println("====================programming 1=====================");
         Shop shop = new Shop();
         Display display = new Display();
@@ -22,7 +20,6 @@ public class Main {
         RCB rcb = new RCB();
         Match match = new Match();
         rcb.captain(match);
-
 
         System.out.println("====================programming 4=====================");
         Space space = new Space();
@@ -53,15 +50,10 @@ public class Main {
         Hotel hotel = new Hotel();
         mango.shake(hotel);
 
-
         System.out.println("====================programming 10=====================");
         Pillow pillow = new Pillow();
         Cot cot = new  Cot();
         pillow.kg(cot);
-
         System.out.println("-------------------------------------------------------END---------------------------------------------------------------------------");
-
     }
-
-
 }

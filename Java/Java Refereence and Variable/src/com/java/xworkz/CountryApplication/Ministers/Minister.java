@@ -6,7 +6,7 @@ public class Minister {
     public int age;
     public String party;
 
-
+    
     public Minister(String name,int age,String department,String party){
         this.name = name;
         this.age = age;
