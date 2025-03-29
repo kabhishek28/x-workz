@@ -9,6 +9,8 @@ public class ProjectorRunner {
 
         projector.getLens();
 
+
+
         System.out.println("-------------------------");
 
         projector.getLamp();

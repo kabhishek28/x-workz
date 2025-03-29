@@ -2,6 +2,7 @@ package com.xworkz.A_relations.external;
 
 import com.xworkz.A_relations.internal.Capacitor;
 
+
 public class Board {
     private int ipAddress;
     private int modelNumber;
