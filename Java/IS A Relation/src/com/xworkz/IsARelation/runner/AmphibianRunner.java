@@ -5,6 +5,12 @@ import com.xworkz.IsARelation.internal.Amphibian;
 
 public class AmphibianRunner {
     public static void main(String[] args) {
+        Amphibian amphibian1 =new Amphibian();
+        amphibian1.swim();
+        amphibian1.jump();
+        amphibian1.breatheThroughSkin();
+        amphibian1.layEggsInWater();
+        amphibian1.transitionToLand();
         Amphibian amphibian = new Frog();
         amphibian.swim();
         amphibian.jump();

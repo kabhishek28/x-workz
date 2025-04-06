@@ -5,6 +5,11 @@ import com.xworkz.IsARelation.internal.Classs;
 
 public class SchoolRunner {
     public static void main(String[] args) {
+        Classs classs = new Classs();
+        classs.subject();
+        classs.sec();
+        classs.noOfStudent();
+        System.out.println("------------------");
         School school = new School();
         school.subject();
         school.sec();

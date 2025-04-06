@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Employee;
 
 public class ManagerRunner {
     public static void main(String[] args) {
+        Employee employee1 = new Employee();
+        employee1.work();
+        employee1.salary();
+        employee1.shift();
+        employee1.leave();
+        employee1.benefits();
+
+        System.out.println("******************");
         Employee employee = new Manager();
         employee.work();
         employee.salary();

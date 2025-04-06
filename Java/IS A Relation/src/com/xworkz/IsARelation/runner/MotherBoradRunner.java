@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.Borad;
 
 public class MotherBoradRunner {
     public static void main(String[] args) {
+
+        Borad borad1 = new Borad();
+        borad1.configure();
+        borad1.noOFItem();
+        borad1.current();
+        borad1.voltage();
+        borad1.size();
+
+        System.out.println("-******************");
         Borad borad = new MotherBorad();
         borad.configure();
         borad.noOFItem();

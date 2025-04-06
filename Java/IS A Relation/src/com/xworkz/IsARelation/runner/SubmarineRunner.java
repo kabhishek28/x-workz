@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Submarine;
 
 public class SubmarineRunner {
     public static void main(String[] args) {
+        Submarine submarine1 = new Submarine();
+        submarine1.dive();
+        submarine1.surface();
+        submarine1.navigate();
+        submarine1.sonarScan();
+        submarine1.fireTorpedo();
+
+        System.out.println("******************");
         Submarine submarine = new NuclearSubmarine();
         submarine.dive();
         submarine.surface();

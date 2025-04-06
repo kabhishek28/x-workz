@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Bakery;
 
 public class CakeRunner{
     public static void main(String[] args) {
+
+        Bakery bakery1 = new Bakery();
+        bakery1.open();
+        bakery1.order();
+        bakery1.close();
+        bakery1.bills();
+        bakery1.offer();
+        System.out.println("-------------");
         Cake cake = new Cake();
         cake.open();
         cake.order();

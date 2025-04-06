@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.CyberSecuritySystem;
 
 public class CyberSecurityRunner {
     public static void main(String[] args) {
+
+        CyberSecuritySystem securitySystem = new CyberSecuritySystem();
+        securitySystem.scanThreats();
+        securitySystem.encryptData();
+        securitySystem.monitorTraffic();
+        securitySystem.preventIntrusion();
+        securitySystem.generateReports();
+
+        System.out.println("******************");
         CyberSecuritySystem security = new Firewall();
         security.scanThreats();
         security.encryptData();

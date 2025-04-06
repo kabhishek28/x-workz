@@ -5,13 +5,26 @@ import com.xworkz.IsARelation.internal.Game;
 
 public class AmongusRunner {
     public static void main(String[] args) {
-        Amongus amongus = new Amongus();
-        amongus.start();
-        amongus.restart();
-        amongus.showScore();
-        Game game = new Amongus();
-        game.showScore();
+        Game game = new Game();
+        game.start();
         game.restart();
+        game.showScore();
+        game.end();
+        game.pause();
+        System.out.println("----------");
+        Game game1 = new Amongus();
+        game1.start();
+        game1.restart();
+        game1.showScore();
+        game1.end();
+        game1.pause();
+        System.out.println("--------------");
+        Amongus amongus = new Amongus();
+        amongus.showScore();
+        amongus.restart();
+        amongus.start();
+        amongus.end();
+        amongus.pause();
 
     }
 }

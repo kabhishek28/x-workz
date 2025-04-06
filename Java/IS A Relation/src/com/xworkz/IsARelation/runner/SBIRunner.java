@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Bank;
 
 public class SBIRunner {
     public static void main(String[] args) {
+        Bank bank1 = new Bank();
+        bank1.deposit();
+        bank1.withdraw();
+        bank1.loan();
+        bank1.interestRate();
+        bank1.branchInfo();
+
+        System.out.println("******************");
         Bank bank = new SBI();
         bank.deposit();
         bank.withdraw();

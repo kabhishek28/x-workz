@@ -5,12 +5,13 @@ public class Therapist {
         System.out.println("Therapist Constructor");
     }
 
+
     public void assessCondition() {
-        System.out.println("Therapist is assessing the patient's condition");
+        System.out.println(" Therapist is assessing the patient's condition");
     }
 
     public void developTreatmentPlan() {
-        System.out.println("Therapist is developing a treatment plan");
+        System.out.println(" Therapist is developing a treatment plan");
     }
 
     public void performTherapy() {
@@ -22,6 +23,6 @@ public class Therapist {
     }
 
     public void educatePatients() {
-        System.out.println("Therapist is educating patients about therapy");
+        System.out.println(" Therapist is educating patients about therapy");
     }
 }

@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Ahcohol;
 
 public class RoyalChallengersRunner {
     public static void main(String[] args) {
+        Ahcohol ahcohol1 = new Ahcohol();
+        ahcohol1.price();
+        ahcohol1.brand();
+        ahcohol1.percentage();
+        ahcohol1.quantity();
+        ahcohol1.size();
+
+        System.out.println("-------------------");
         RoyalChalleangres royalChalleangres = new RoyalChalleangres();
         royalChalleangres.price();
         royalChalleangres.brand();

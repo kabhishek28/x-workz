@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.Ship;
 
 public class CruiseShipRunner {
     public static void main(String[] args) {
+
+        Ship ship1 = new Ship();
+        ship1.sail();
+        ship1.anchor();
+        ship1.carryCargo();
+        ship1.navigate();
+        ship1.accommodatePassengers();
+
+        System.out.println("------------------");
         Ship ship = new CruiseShip();
         ship.sail();
         ship.anchor();

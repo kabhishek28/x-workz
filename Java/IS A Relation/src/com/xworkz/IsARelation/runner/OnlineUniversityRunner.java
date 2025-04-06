@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.University;
 
 public class OnlineUniversityRunner {
     public static void main(String[] args) {
+        University university1 = new University();
+        university1.enrollStudents();
+        university1.conductLectures();
+        university1.conductExams();
+        university1.issueDegrees();
+        university1.manageLibrary();
+        System.out.println("--------------------");
         University university = new OnlineUniversity();
         university.enrollStudents();
         university.conductLectures();

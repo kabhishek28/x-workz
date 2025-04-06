@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.Yacht;
 
 public class LuxuryYachtRunner {
     public static void main(String[] args) {
+        Yacht yacht1 = new Yacht();
+        yacht1.sail();
+        yacht1.navigate();
+        yacht1.hostParty();
+        yacht1.provideLuxuryExperience();
+        yacht1.dock();
+        System.out.println("-----------------");
         Yacht yacht = new LuxuryYacht();
         yacht.sail();
         yacht.navigate();

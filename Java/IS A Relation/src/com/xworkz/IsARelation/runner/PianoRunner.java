@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Instrument;
 
 public class PianoRunner {
     public static void main(String[] args) {
+        Instrument instrument1 = new Instrument();
+        instrument1.play();
+        instrument1.tune();
+        instrument1.repair();
+        instrument1.transport();
+        instrument1.store();
+
+        System.out.println("-------------------");
         Instrument instrument = new Piano();
         instrument.play();
         instrument.tune();

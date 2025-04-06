@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.Therapist;
 
 public class PhysiotherapistRunner {
     public static void main(String[] args) {
+        Therapist therapist1 = new Physiotherapist();
+        therapist1.assessCondition();
+        therapist1.developTreatmentPlan();
+        therapist1.performTherapy();
+        therapist1.trackProgress();
+        therapist1.educatePatients();
+        System.out.println("------------");
         Therapist therapist = new Physiotherapist();
         therapist.assessCondition();
         therapist.developTreatmentPlan();

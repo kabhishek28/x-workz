@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Government;
 
 public class PoliceRunner {
     public static void main(String[] args) {
+        Government government1 = new Government();
+        government1.makeLaws();
+        government1.collectTaxes();
+        government1.provideSecurity();
+        government1.manageEconomy();
+        government1.maintainInfrastructure();
+
+        System.out.println("-------------------");
         Government government = new Police();
         government.makeLaws();
         government.collectTaxes();

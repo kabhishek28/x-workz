@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.Bird;
 
 public class BirdRunner {
     public static void main(String[] args) {
+        Bird bird1 = new Bird();
+
+        bird1.fly();
+        bird1.sing();
+        bird1.eat();
+        bird1.sleep();
+        bird1.nest();
+
+        System.out.println("******************");
         Bird bird = new Sparrow();
         bird.fly();
         bird.sing();

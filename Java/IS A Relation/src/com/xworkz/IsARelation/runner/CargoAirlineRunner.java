@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.Airline;
 
 public class CargoAirlineRunner {
     public static void main(String[] args) {
+        Airline airline1 =new Airline();
+        airline1.scheduleFlights();
+        airline1.bookTickets();
+        airline1.maintainAircraft();
+        airline1.manageCrew();
+        airline1.handlePassengers();
+        System.out.println("------------");
         Airline airline = new CargoAirline();
         airline.scheduleFlights();
         airline.bookTickets();

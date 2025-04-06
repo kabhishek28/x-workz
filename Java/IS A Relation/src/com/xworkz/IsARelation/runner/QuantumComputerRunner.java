@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.QuantumComputer;
 
 public class QuantumComputerRunner {
     public static void main(String[] args) {
+
+        QuantumComputer quantumComputer = new QuantumComputer();
+        quantumComputer.performQuantumCalculation();
+        quantumComputer.processQubits();
+        quantumComputer.optimizeAlgorithms();
+        quantumComputer.runQuantumSimulation();
+        quantumComputer.encryptData();
+
+        System.out.println("******************");
         QuantumComputer quantum = new SuperQuantumComputer();
         quantum.performQuantumCalculation();
         quantum.processQubits();

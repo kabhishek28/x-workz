@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Spacecraft;
 
 public class SatelliteRunner {
     public static void main(String[] args) {
+        Spacecraft spacecraft1 = new Spacecraft();
+        spacecraft1.launch();
+        spacecraft1.orbit();
+        spacecraft1.land();
+        spacecraft1.communicate();
+        spacecraft1.fuelType();
+
+        System.out.println("******************");
         Spacecraft spacecraft = new Satellite();
         spacecraft.launch();
         spacecraft.orbit();

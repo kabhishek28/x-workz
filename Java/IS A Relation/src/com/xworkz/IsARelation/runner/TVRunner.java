@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.TV;
 
 public class TVRunner {
     public static void main(String[] args) {
+        TV tv1 = new TV();
+        tv1.watch();
+        tv1.change();
+        tv1.off();
+        tv1.volume();
+        tv1.on();
+
+        System.out.println("-------------------");
         TV tv = new TVBrand();
         tv.watch();
         tv.change();

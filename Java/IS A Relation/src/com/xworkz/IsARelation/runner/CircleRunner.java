@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.Shape;
 
 public class CircleRunner {
     public static void main(String[] args) {
+        Shape shape1 = new Shape();
+        shape1.area();
+        shape1.draw();
+        shape1.color();
+        shape1.perimeter();
+        shape1.resize();
+        System.out.println("-----------------------");
         Circle circle = new Circle();
         circle.area();
         circle.draw();

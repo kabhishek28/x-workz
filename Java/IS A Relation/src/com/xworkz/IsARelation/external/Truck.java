@@ -2,12 +2,12 @@ package com.xworkz.IsARelation.external;
 
 import com.xworkz.IsARelation.internal.Vehicle;
 
-public class Carr extends Vehicle {
+public class Truck extends Vehicle {
 
 
 
 
-        public Carr() {
+        public Truck() {
             System.out.println("No-argument constructor: Car");
         }
 

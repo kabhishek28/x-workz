@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.Appliance;
 
 public class WashingMachineRunner {
     public static void main(String[] args) {
+        Appliance appliance1 = new Appliance();
+        appliance1.function();
+        appliance1.maintenance();
+        appliance1.turnOff();
+        appliance1.turnOn();
+        appliance1.warranty();
+        System.out.println("----------------");
         WashingMachine washingMachine = new WashingMachine();
         washingMachine.function();
         washingMachine.maintenance();

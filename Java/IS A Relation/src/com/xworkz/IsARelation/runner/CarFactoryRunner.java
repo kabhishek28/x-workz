@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Factory;
 
 public class CarFactoryRunner {
     public static void main(String[] args) {
+
+        Factory factory1 = new Factory();
+        factory1.produceGoods();
+        factory1.maintainMachinery();
+        factory1.hireWorkers();
+        factory1.distributeProducts();
+        factory1.ensureSafety();
+        System.out.println("-----------------");
         Factory factory = new CarFactory();
         factory.produceGoods();
         factory.maintainMachinery();

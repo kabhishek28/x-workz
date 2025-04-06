@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.Currency;
 
 public class INRRunner {
     public static void main(String[] args) {
+
+        Currency currency1 = new Currency();
+        currency1.amount();
+        currency1.currency();
+        currency1.GDP();
+        currency1.rate();
+        currency1.rate();
+
+        System.out.println("---------------");
         Currency currency = new INR();
         currency.amount();
         currency.currency();

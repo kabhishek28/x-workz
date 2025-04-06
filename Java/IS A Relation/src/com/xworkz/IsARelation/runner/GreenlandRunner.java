@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.Island;
 
 public class GreenlandRunner {
     public static void main(String[] args) {
+
+        Island island1 =new Island();
+        island1.beSurroundedByWater();
+        island1.haveBeaches();
+        island1.supportMarineLife();
+        island1.experienceTropicalClimate();
+        island1.attractTourists();
+
+        System.out.println("-----------");
         Island island = new Greenland();
         island.beSurroundedByWater();
         island.haveBeaches();

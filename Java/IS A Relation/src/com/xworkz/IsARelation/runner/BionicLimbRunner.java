@@ -5,6 +5,15 @@ import com.xworkz.IsARelation.internal.BionicLimb;
 
 public class BionicLimbRunner {
     public static void main(String[] args) {
+
+        BionicLimb limb1 = new BionicLimb();
+        limb1.detectSignals();
+        limb1.moveFingers();
+        limb1.adjustGripStrength();
+        limb1.selfRepair();
+        limb1.trackUsageData();
+        System.out.println("******************");
+
         BionicLimb limb = new AdvancedBionicArm();
         limb.detectSignals();
         limb.moveFingers();
@@ -20,5 +29,7 @@ public class BionicLimbRunner {
         arm.adjustGripStrength();
         arm.selfRepair();
         arm.trackUsageData();
+
+
     }
 }

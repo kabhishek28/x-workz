@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.MedicalRobot;
 
 public class MedicalRobotRunner {
     public static void main(String[] args) {
+        MedicalRobot medicalRobot = new MedicalRobot();
+        medicalRobot.diagnose();
+        medicalRobot.assistSurgery();
+        medicalRobot.dispenseMedicine();
+        medicalRobot.monitorVitals();
+        medicalRobot.sterilizeEquipment();
+        System.out.println("------------------");
         MedicalRobot robot = new SurgicalRobot();
         robot.diagnose();
         robot.assistSurgery();

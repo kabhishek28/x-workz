@@ -5,7 +5,18 @@ import com.xworkz.IsARelation.internal.Planet;
 
 public class EarthRunner {
     public static void main(String[] args) {
+
+        Planet planet1 = new Planet();
+        planet1.revolveAroundSun();
+        planet1.rotateOnAxis();
+        planet1.haveAtmosphere();
+        planet1.supportLife();
+        planet1.haveMoons();
+
+        System.out.println("--------------");
         Planet planet = new Earth();
+
+
         planet.revolveAroundSun();
         planet.rotateOnAxis();
         planet.haveAtmosphere();

@@ -1,8 +1,8 @@
 package com.xworkz.IsARelation.external;
 
-import com.xworkz.IsARelation.internal.Shampoo;
+import com.xworkz.IsARelation.internal.HairCareProduct;
 
-public class Sunsilk extends Shampoo
+public class Sunsilk extends HairCareProduct
 
 {
 

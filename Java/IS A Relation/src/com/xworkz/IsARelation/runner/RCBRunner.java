@@ -5,6 +5,13 @@ import com.xworkz.IsARelation.internal.IPL;
 
 public class RCBRunner {
     public static void main(String[] args) {
+        IPL ipl1 = new IPL();
+        ipl1.team();
+        ipl1.brand();
+        ipl1.player();
+        ipl1.sponsor();
+        ipl1.cup();
+        System.out.println("------------------");
         IPL ipl = new RCB();
         ipl.team();
         ipl.brand();

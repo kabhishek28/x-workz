@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Train;
 
 public class BulletTrainRunner {
     public static void main(String[] args) {
+
+        Train train1 = new Train();
+        train1.startJourney();
+        train1.increaseSpeed();
+        train1.blowHorn();
+        train1.providePassengerService();
+        train1.stopAtStation();
+        System.out.println("--------------");
         Train train = new BulletTrain();
         train.startJourney();
         train.increaseSpeed();

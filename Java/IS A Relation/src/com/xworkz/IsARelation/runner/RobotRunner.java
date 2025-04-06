@@ -5,6 +5,14 @@ import com.xworkz.IsARelation.internal.Robot;
 
 public class RobotRunner {
     public static void main(String[] args) {
+        Robot robot1 = new Robot();
+        robot1.powerOn();
+        robot1.move();
+        robot1.processData();
+        robot1.communicate();
+        robot1.shutdown();
+
+        System.out.println("******************");
         Robot robot = new HumanoidRobot();
         robot.powerOn();
         robot.move();

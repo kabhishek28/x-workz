@@ -6,6 +6,15 @@ import com.xworkz.IsARelation.internal.Device;
 public class OvenRunner {
 
     public static void main(String[] args) {
+
+        Device device1 = new Device();
+        device1.powerOn();
+        device1.powerOff();
+        device1.batteryStatus();
+        device1.connectivity();
+        device1.deviceInfo();
+
+        System.out.println("******************");
         Device device = new Oven();
         device.powerOn();
         device.powerOff();

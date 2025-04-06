@@ -1,7 +1,7 @@
 package com.xworkz.IsARelation.runner;
 
 
-import com.xworkz.IsARelation.external.Carr;
+import com.xworkz.IsARelation.external.Truck;
 import com.xworkz.IsARelation.internal.Vehicle;
 
 public class carrRunner {
@@ -15,7 +15,7 @@ public class carrRunner {
 
             System.out.println("******************");
 
-            Carr car = new Carr();
+            Truck car = new Truck();
             car.fuelType();
             car.speed();
             car.capacity();
