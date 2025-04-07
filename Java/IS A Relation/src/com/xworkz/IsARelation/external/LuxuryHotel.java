@@ -26,4 +26,10 @@ public class LuxuryHotel extends Hotel {
     public void cleanRooms() {
         System.out.println("@Override :Hotel is cleaning rooms");
     }
+
+
+    public void provideSpaServices() {
+        System.out.println("LuxuryHotel is providing spa services to guests...");
+    }
+
 }

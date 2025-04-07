@@ -27,5 +27,8 @@ public class AdvancedBionicArm extends BionicLimb {
     public void trackUsageData() {
         System.out.println(" @Override :Bionic Limb is tracking usage data...");
     }
+    public void connectToApp() {
+        System.out.println("Advanced Bionic Arm is connecting to the mobile app for configuration...");
+    }
     }
 

@@ -8,7 +8,7 @@ public class MarsRover extends SpaceProbe {
         System.out.println("No-argument constructor: Mars Rover");
     }
 
-@Override
+    @Override
     public void launch() {
         System.out.println("@Override :Space Probe is launching");
     }
@@ -28,4 +28,9 @@ public class MarsRover extends SpaceProbe {
     public void navigate() {
         System.out.println("@Override :Space Probe is navigating through space");
     }
+
+    public void drillSurface() {
+        System.out.println("Mars Rover is drilling the Martian surface for core samples.");
+    }
+
 }

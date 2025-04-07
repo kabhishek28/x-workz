@@ -6,7 +6,7 @@ public class DeepSeaExplorer extends UnderwaterDrone {
     public DeepSeaExplorer() {
         System.out.println("No-argument constructor: Deep Sea Explorer");
     }
-@Override
+    @Override
     public void diveDeep() {
         System.out.println("@Override :Underwater Drone is diving deep...");
     }
@@ -23,6 +23,7 @@ public class DeepSeaExplorer extends UnderwaterDrone {
         System.out.println("@Override :Underwater Drone is measuring water temperature...");
     }
     @Override
+
     public void sendDataToSatellite() {
         System.out.println("@Override :Underwater Drone is sending data to a satellite...");
     }

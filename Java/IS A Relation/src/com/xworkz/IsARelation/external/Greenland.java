@@ -26,4 +26,8 @@ public class Greenland extends Island {
     public void attractTourists() {
         System.out.println("@Override :Island attracts tourists");
     }
+    public void displaySize() {
+        System.out.println("Greenland is the world's largest island by area.");
+    }
+
 }

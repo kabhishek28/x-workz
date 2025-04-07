@@ -23,6 +23,9 @@ public class Dasara extends Festival {
         System.out.println(" @Override :sweet of the festivale class");
     }
 
+    public void stateCelebrated() {
+        System.out.println("Dasara is grandly celebrated in Karnataka!");
+    }
 
 
 }

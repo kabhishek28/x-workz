@@ -26,4 +26,9 @@ public class CruiseShip extends Ship {
     public void accommodatePassengers() {
         System.out.println("@Override :Ship accommodates passengers");
     }
+
+    public void serveBuffet() {
+        System.out.println("CruiseShip is serving a luxurious buffet");
+    }
+
 }

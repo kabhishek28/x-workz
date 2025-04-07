@@ -27,4 +27,9 @@ public class Firewall extends CyberSecuritySystem {
     public void generateReports() {
         System.out.println("@Override :Generating security reports...");
     }
+
+    public void blockMaliciousIP() {
+        System.out.println("Firewall is blocking malicious IP addresses.");
+    }
+
 }

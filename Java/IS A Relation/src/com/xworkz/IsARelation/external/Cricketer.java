@@ -28,4 +28,8 @@ public class Cricketer extends Athlete {
     public void setGoals() {
         System.out.println("@Override :Athlete is setting goals...");
     }
+    public void scoreCentury() {
+        System.out.println("Cricketer is scoring a century!");
+    }
+
 }

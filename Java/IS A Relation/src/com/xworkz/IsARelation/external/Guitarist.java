@@ -27,4 +27,8 @@ public class Guitarist extends Musician {
     public void collaborate() {
         System.out.println("@Override :Musician is collaborating with other artists...");
     }
+    public void showGuitarBrand() {
+        System.out.println("The guitarist is using a Fender guitar.");
+    }
+
 }

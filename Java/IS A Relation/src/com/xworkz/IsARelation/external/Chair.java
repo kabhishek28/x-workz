@@ -28,4 +28,8 @@ public class Chair extends Furniture {
         System.out.println("@Override :drinks method from Furniture class is running ");
     }
 
+    public void noOfSeat(){
+        System.out.println("Chair No OF Seat method is running");
+    }
+
 }

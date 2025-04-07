@@ -17,4 +17,9 @@ public class IPhone extends Phone {
     public void turnOn() { System.out.println("@Override :Turning on the phone"); }
     @Override
     public void turnOff() { System.out.println("@Override :Turning off the phone"); }
+
+    public void useFaceID() {
+        System.out.println("IPhone is using Face ID to unlock...");
+    }
+
 }

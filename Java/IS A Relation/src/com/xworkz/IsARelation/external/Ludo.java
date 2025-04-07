@@ -30,4 +30,9 @@ public class Ludo extends BoardGame {
     public void endGame() {
         System.out.println("@Override :Ending the board game...");
     }
+
+    public void playWithFriends() {
+        System.out.println("Playing Ludo with friends!");
+    }
+
 }

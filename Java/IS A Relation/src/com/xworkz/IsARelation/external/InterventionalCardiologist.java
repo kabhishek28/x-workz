@@ -1,8 +1,9 @@
 package com.xworkz.IsARelation.external;
 
-import com.xworkz.IsARelation.internal.Cardiologist;
 
-public class InterventionalCardiologist extends Cardiologist {
+import com.xworkz.IsARelation.internal.Cardiologistt;
+
+public class InterventionalCardiologist extends Cardiologistt {
     public InterventionalCardiologist() {
         System.out.println("Interventional Cardiologist Constructor");
     }
@@ -27,4 +28,9 @@ public class InterventionalCardiologist extends Cardiologist {
     public void prescribeHeartMedication() {
         System.out.println("@Override :Cardiologist is prescribing heart medication");
     }
+    public void performStentPlacement() {
+            System.out.println("Interventional Cardiologist is performing stent placement procedure...");
+        }
+
+
 }

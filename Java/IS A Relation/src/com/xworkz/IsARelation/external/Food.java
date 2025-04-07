@@ -26,5 +26,8 @@ public class Food extends Menu {
     public void drinks(){
         System.out.println("@Override :drinks method from Menu class is running ");
     }
+    public void showDessertMenu() {
+        System.out.println("Food menu includes desserts like Gulab Jamun, Ice Cream, and Rasgulla.");
+    }
 
 }

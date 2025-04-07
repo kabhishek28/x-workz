@@ -17,4 +17,8 @@ public class Guitar extends MusicalInstrument {
     public void transport() { System.out.println("@ Override :Transporting instrument"); }
     @Override
     public void store() { System.out.println("@Override :Storing instrument"); }
+    public void showGuitarType() {
+        System.out.println("This is an acoustic guitar.");
+    }
+
 }

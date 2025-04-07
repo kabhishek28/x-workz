@@ -16,4 +16,9 @@ public class Chess extends Game {
     public void restart() { System.out.println("@Override :Game restarted"); }
     @Override
     public void showScore() { System.out.println("@Override :Showing the score"); }
+
+    public void showStrategy() {
+        System.out.println("Chess strategy is being displayed");
+    }
+
 }

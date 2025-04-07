@@ -27,4 +27,9 @@ public class CupCake extends Dessert {
     public void displayCalories() {
         System.out.println("@Override :This dessert has approximately 250 calories.");
     }
+
+    public void showFrostingStyle() {
+        System.out.println("CupCake has a swirl of chocolate frosting");
+    }
+
 }

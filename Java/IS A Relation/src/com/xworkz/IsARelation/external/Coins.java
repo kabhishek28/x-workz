@@ -26,4 +26,9 @@ public class Coins extends Carrom {
     public void display(){
         System.out.println("@Override :display Carrom");
     }
+
+    public void strikeCoin() {
+        System.out.println("Striking a coin in Carrom");
+    }
+
 }

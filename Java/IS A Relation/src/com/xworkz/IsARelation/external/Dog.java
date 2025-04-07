@@ -26,4 +26,8 @@ public class Dog extends Animal {
     public void sleep(){
         System.out.println("@Override :sleep");
     }
+    public void bark() {
+        System.out.println("Dog is barking...");
+    }
+
 }

@@ -26,4 +26,8 @@ public class CargoAirline extends Airline {
     public void handlePassengers() {
         System.out.println("@Override :Airline is handling passengers");
     }
+
+    public void seatAvailable(){
+        System.out.println("Seat available in Aircraft");
+    }
 }

@@ -26,4 +26,9 @@ public class LunarLander extends Spacecraft {
     public void fuelType() {
         System.out.println("@Override :Spacecraft uses rocket fuel");
     }
+
+    public void collectMoonSamples() {
+        System.out.println("LunarLander is collecting moon rock samples...");
+    }
+
 }

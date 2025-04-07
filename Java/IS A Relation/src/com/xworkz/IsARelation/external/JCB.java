@@ -30,4 +30,9 @@ public class JCB extends ConstructionMachine {
     public void shutDown() {
         System.out.println("@Override :Shutting down the construction machine...");
     }
+
+    public void digGround() {
+        System.out.println("JCB is digging the ground...");
+    }
+
 }

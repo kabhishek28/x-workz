@@ -28,4 +28,9 @@ public class MangoTree extends Tree {
     public void shedLeaves() {
         System.out.println("@Override :Tree is shedding leaves...");
     }
+
+    public void bearFruit() {
+        System.out.println("Mango tree is bearing sweet mangoes!");
+    }
+
 }

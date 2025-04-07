@@ -33,4 +33,8 @@ public class Cricket extends OutdoorGame {
     public void checkWeather() {
         System.out.println("@Override :Checking weather conditions for the game...");
     }
+    public void toss() {
+        System.out.println("Cricket toss is happening...");
+    }
+
 }

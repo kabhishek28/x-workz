@@ -4,11 +4,10 @@ import com.xworkz.IsARelation.internal.River;
 
 public class Amazon extends River {
 
-
     public Amazon() {
         System.out.println("Amazon Constructor");
     }
-@Override
+    @Override
     public void flow() {
         System.out.println("@Override :River is flowing");
     }
@@ -27,6 +26,11 @@ public class Amazon extends River {
     @Override
     public void provideWater() {
         System.out.println("@Override :River provides water for irrigation and drinking");
+    }
+
+
+    public void haveFish(){
+        System.out.println("River have fish  ");
     }
 
 }

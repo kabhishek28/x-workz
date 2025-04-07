@@ -27,4 +27,8 @@ public class CarFactory extends Factory {
     public void ensureSafety() {
         System.out.println("@Override :Factory is ensuring safety");
     }
+
+    public void production(){
+        System.out.println("Car production method of class CAR Factory");
+    }
 }

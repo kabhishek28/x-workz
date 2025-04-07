@@ -19,5 +19,8 @@ public class Item extends Shop {
     public void item(){
         System.out.println("@Override :item is  running of the class item");
     }
+    public void generateReceipt() {
+        System.out.println("Generating receipt for the item...");
+    }
 
 }

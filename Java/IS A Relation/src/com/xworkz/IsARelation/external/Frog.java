@@ -26,4 +26,9 @@ public class Frog extends Amphibian {
     public void transitionToLand() {
         System.out.println("@Override :Amphibian is transitioning from water to land...");
     }
+
+    public void catchInsects() {
+        System.out.println("Frog is catching insects with its tongue...");
+    }
+
 }

@@ -27,6 +27,8 @@ public class Cake extends Bakery {
         System.out.println("@Override :Top Speed is running from the Bakery class");
     }
 
-
+    public void kg(){
+        System.out.println("how munah KG cake");
+    }
 
 }

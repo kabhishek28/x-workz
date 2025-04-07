@@ -16,5 +16,8 @@ public class Laptop extends Computer {
     public void connectToWiFi() { System.out.println("@Override :Computer is connected to WiFi"); }
     @Override
     public void installSoftware() { System.out.println("@Override :Installing software"); }
+    public void portable() {
+        System.out.println("Laptop is portable and easy to carry.");
+    }
 
 }

@@ -26,4 +26,8 @@ public class ClinicalPsychologist extends Psychologist {
     public void recommendTreatments() {
         System.out.println("@Override :Psychologist is recommending treatments");
     }
+    public void runCognitiveTests() {
+        System.out.println("Clinical Psychologist is running cognitive tests");
+    }
+
 }

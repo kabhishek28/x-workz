@@ -1,7 +1,7 @@
 package com.xworkz.IsARelation.internal;
 
-public class Cardiologist {
-    public Cardiologist() {
+public class Cardiologistt{
+    public Cardiologistt() {
         System.out.println("Cardiologist Constructor");
     }
 

@@ -27,4 +27,9 @@ public class LuxuryYacht extends Yacht {
     public void provideLuxuryExperience() {
         System.out.println("@Override :Yacht is providing a luxury experience");
     }
+
+    public void serveChampagne() {
+        System.out.println("LuxuryYacht is serving premium champagne to guests...");
+    }
+
 }

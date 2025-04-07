@@ -26,5 +26,10 @@ public class Everest extends Mountain {
     public void storeGlaciers() {
         System.out.println("@Override :Mountain stores glaciers");
     }
+
+    public void showPeakHeight() {
+        System.out.println("Mount Everest has a peak height of 8,848 meters above sea level.");
+    }
+
 }
 

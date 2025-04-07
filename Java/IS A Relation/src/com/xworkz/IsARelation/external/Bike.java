@@ -27,4 +27,8 @@ public class Bike extends TwoWheeler {
     public void applyBrakes() {
         System.out.println(" @Override :Brakes applied on two-wheeler...");
     }
+
+    public void topSpeed(){
+        System.out.println("Top Speed of the bike ");
+    }
 }

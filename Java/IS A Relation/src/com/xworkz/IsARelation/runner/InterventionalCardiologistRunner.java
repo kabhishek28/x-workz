@@ -1,27 +1,25 @@
 package com.xworkz.IsARelation.runner;
 
-import com.xworkz.IsARelation.internal.Cardiologist;
+import com.xworkz.IsARelation.external.Cardiologist;
+import com.xworkz.IsARelation.internal.Cardiologistt;
 import com.xworkz.IsARelation.external.InterventionalCardiologist;
 
 public class InterventionalCardiologistRunner {
     public static void main(String[] args) {
         Cardiologist cardiologist1 = new Cardiologist();
-        cardiologist1.checkHeartRate();
-        cardiologist1.adviseLifestyleChanges();
-        cardiologist1.diagnoseHeartDiseases();
-        cardiologist1.performAngioplasty();
-        cardiologist1.prescribeHeartMedication();
+        cardiologist1.givingTablets();
+        cardiologist1.prescribeMedicine();
+        cardiologist1.conductCheckup();
+        cardiologist1.diagnose();
+        cardiologist1.adviseRest();
+
         System.out.println("---------------------");
 
 
 
-        Cardiologist cardiologist = new InterventionalCardiologist();
+        //Cardiologist cardiologist = new InterventionalCardiologist();
 
-        cardiologist.checkHeartRate();
-        cardiologist.adviseLifestyleChanges();
-        cardiologist.diagnoseHeartDiseases();
-        cardiologist.performAngioplasty();
-        cardiologist.prescribeHeartMedication();
+
 
         System.out.println("---------------");
 

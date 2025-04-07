@@ -27,4 +27,10 @@ public class Car extends FourWheeler {
     public void applyBrakes() {
         System.out.println("@Override :Brakes applied on the four-wheeler.");
     }
+
+    public void riseSpeed(){
+        System.out.println("rise the speed of the car");
+    }
+
+
 }

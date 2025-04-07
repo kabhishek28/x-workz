@@ -27,4 +27,9 @@ public class Chatbot extends AISystem {
     public void update() {
         System.out.println("@Override :AI System is updating its model");
     }
+
+    public void chatWithUser() {
+        System.out.println("Chatbot is chatting with the user");
+    }
+
 }

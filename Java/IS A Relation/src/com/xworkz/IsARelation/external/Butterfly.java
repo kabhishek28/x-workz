@@ -28,4 +28,8 @@ public class Butterfly extends Insect {
     public void communicateWithPheromones() {
         System.out.println("@Override: Insect is communicating using pheromones...");
     }
+
+    public void eat(){
+        System.out.println("butter fly is eating food");
+    }
 }

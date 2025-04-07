@@ -26,4 +26,9 @@ public class ICUNurse extends Nurse {
     public void handleMedicalEquipment() {
         System.out.println("@Override :Nurse is handling medical equipment");
     }
+
+    public void monitorCriticalPatients() {
+        System.out.println("ICU Nurse is monitoring critical patients...");
+    }
+
 }

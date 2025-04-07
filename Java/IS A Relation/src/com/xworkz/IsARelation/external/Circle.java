@@ -17,5 +17,8 @@ public class Circle extends Shape {
     public void resize() { System.out.println("@Override :Resizing the shape"); }
     @Override
     public void color() { System.out.println("@Override :Coloring the shape"); }
+    public void calculateDiameter() {
+        System.out.println("Calculating the diameter of the circle");
+    }
 
 }

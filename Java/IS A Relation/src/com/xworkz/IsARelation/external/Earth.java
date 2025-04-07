@@ -26,4 +26,9 @@ public class Earth extends Planet {
     public void haveMoons() {
         System.out.println("@Override :Some planets have moons");
     }
+
+    public void showContinents() {
+        System.out.println("Earth has 7 continents: Asia, Africa, North America, South America, Antarctica, Europe, and Australia");
+    }
+
 }

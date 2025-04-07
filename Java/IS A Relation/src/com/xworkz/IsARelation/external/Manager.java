@@ -28,6 +28,11 @@ public class Manager extends Employee {
     public void benefits() {
         System.out.println("@Override :Employee gets benefits");
     }
+
+    public void conductMeeting() {
+        System.out.println("Manager is conducting a team meeting.");
+    }
+
 }
 
 

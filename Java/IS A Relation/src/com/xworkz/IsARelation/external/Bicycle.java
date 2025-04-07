@@ -29,4 +29,8 @@ public class Bicycle extends AutoMobile {
         System.out.println("@Override :Top Speed is running from the AutoMobile class");
     }
 
+    public void gearChange(){
+        System.out.println("Gear change method is running from the Bicycle class");
+    }
+
 }

@@ -17,4 +17,8 @@ public class Amongus extends Game {
     @Override
     public void showScore() { System.out.println("@Override :Showing the score"); }
 
+    public void saveProgress(){
+        System.out.println("showing Feed back");
+    }
+
 }

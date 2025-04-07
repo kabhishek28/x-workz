@@ -22,4 +22,8 @@ public class Apple extends Fruit {
     public void sweet(){
         System.out.println(" @Override : quality method of  Fruit");
     }
+
+    public void price(){
+        System.out.println("Price of the apple");
+    }
 }

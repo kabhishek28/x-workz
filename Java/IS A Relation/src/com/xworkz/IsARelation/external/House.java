@@ -27,4 +27,9 @@ public class House extends Building {
     public void area(){
         System.out.println("@Override :area of building is running");
     }
+
+    public void showOwnerName() {
+        System.out.println("This house is owned by Mr. Ramesh.");
+    }
+
 }

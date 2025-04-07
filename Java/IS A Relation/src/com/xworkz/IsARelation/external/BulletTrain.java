@@ -27,4 +27,8 @@ public class BulletTrain extends Train {
     public void providePassengerService() {
         System.out.println("@Override :Train is providing service to passengers");
     }
+
+    public void applyBreak(){
+        System.out.println("Apply break method is calling");
+    }
 }

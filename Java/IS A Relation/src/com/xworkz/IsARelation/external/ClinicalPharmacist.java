@@ -26,4 +26,9 @@ public class ClinicalPharmacist extends Pharmacist {
     public void manageInventory() {
         System.out.println("@Override :Pharmacist is managing medicine inventory");
     }
+
+    public void performClinicalReview() {
+        System.out.println("Clinical Pharmacist is performing a clinical review");
+    }
+
 }

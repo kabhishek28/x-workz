@@ -27,4 +27,9 @@ public class INR extends Currency {
     public void amount() {
         System.out.println("@Override :amount Currency");
     }
+
+    public void showCurrencySymbol() {
+        System.out.println("INR symbol is ₹");
+    }
+
 }

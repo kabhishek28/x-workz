@@ -27,4 +27,8 @@ public class Cardiologist extends Doctor {
     public void adviseRest() {
         System.out.println("@Override :Doctor is advising rest...");
     }
+
+    public void givingTablets(){
+        System.out.println("giving Tablets methos");
+    }
 }

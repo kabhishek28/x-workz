@@ -29,4 +29,8 @@ public class FreeFire extends OnlineGame{
     public void endSession() {
         System.out.println("@Override :Ending the online game session...");
     }
+    public void useCharacterSkill() {
+        System.out.println("Using special character skill in Free Fire...");
+    }
+
 }

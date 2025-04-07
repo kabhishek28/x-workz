@@ -27,4 +27,10 @@ public class HumanoidRobot extends Robot {
     public void shutdown() {
         System.out.println("@Override :Robot is shutting down");
     }
+
+
+    public void recognizeFace() {
+        System.out.println("Humanoid Robot is recognizing a face...");
+    }
+
 }
