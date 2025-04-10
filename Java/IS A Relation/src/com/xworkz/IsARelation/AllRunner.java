@@ -223,6 +223,5 @@ public class AllRunner {
         TreeHandler treeHandler = new TreeHandler();
         Tree tree = new MangoTree();
         treeHandler.handleTree(tree);
-
     }
 }
