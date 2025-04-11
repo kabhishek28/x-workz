@@ -15,6 +15,11 @@ public class GamingConsole {
     public String toString() {
         return "Console: " + brand + " " + model + ", Storage: " + storage + "GB";
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

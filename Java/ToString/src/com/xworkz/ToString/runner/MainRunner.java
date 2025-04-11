@@ -11,329 +11,530 @@ public class MainRunner {
 
         System.out.println("-------------------------- 1 ---------------------------------");
         BankHolder bankHolder  = new BankHolder(502551,"Saving","Nikhita");
-        System.out.println(bankHolder);
+        System.out.println("To String Details :"+ bankHolder);
+        System.out.println("Hash Code value :"+bankHolder.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(bankHolder));
 
         System.out.println("-------------------------- 2 ---------------------------------");
         Metro metro = new Metro("rajajinagar","M G road",80);
-        System.out.println(metro);
+        System.out.println("To String Details :"+ metro);
+        System.out.println("Hash Code value :"+metro.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(metro));
         System.out.println("-------------------------- 3 ---------------------------------");
         Restaurant rest = new Restaurant("Spicy Treat", "Indiranagar", 4);
-        System.out.println(rest);
+        System.out.println("To String Details :"+ rest);
+        System.out.println("Hash Code value :"+rest.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(rest));
         System.out.println("-------------------------- 4 ---------------------------------");
         Hotel hotel = new Hotel("Palm Residency", "Mysore", 2500);
-        System.out.println(hotel);
+        System.out.println("To String Details :"+ hotel);
+        System.out.println("Hash Code value :"+hotel.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(hotel));
         System.out.println("-------------------------- 5 ---------------------------------");
         Movie movie = new Movie("Interstellar", "Sci-Fi", 169);
-        System.out.println(movie);
+        System.out.println("To String Details :"+ movie);
+        System.out.println("Hash Code value :"+movie.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(movie));
         System.out.println("-------------------------- 6 ---------------------------------");
         Library book = new Library("The Alchemist", "Paulo Coelho", 208);
-        System.out.println(book);
+        System.out.println("To String Details :"+ book);
+        System.out.println("Hash Code value :"+book.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(book));
         System.out.println("-------------------------- 7 ---------------------------------");
         Flight flight = new Flight("IndiGo", "Delhi", 4500);
-        System.out.println(flight);
+        System.out.println("To String Details :"+ flight);
+        System.out.println("Hash Code value :"+flight.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(flight));
         System.out.println("-------------------------- 8 ---------------------------------");
         Gym gym = new Gym("FitZone", "Premium", 6);
-        System.out.println(gym);
+        System.out.println("To String Details :"+ gym);
+        System.out.println("Hash Code value :"+gym.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(gym));
         System.out.println("-------------------------- 9 ---------------------------------");
         BusTicket ticket = new BusTicket("Majestic", "Electronic City", 35);
-        System.out.println(ticket);
+        System.out.println("To String Details :"+ ticket);
+        System.out.println("Hash Code value :"+ticket.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ticket));
         System.out.println("-------------------------- 10 ---------------------------------");
         Cafe cafe = new Cafe("BeanHive", "Cold Coffee", 120.50);
-        System.out.println(cafe);
+        System.out.println("To String Details :"+ cafe);
+        System.out.println("Hash Code value :"+cafe.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(cafe));
         System.out.println("-------------------------- 11 ---------------------------------");
         Train train = new Train("Shatabdi Express", "10:00 AM", "2:30 PM");
-        System.out.println(train);
+        System.out.println("To String Details :"+ train);
+        System.out.println("Hash Code value :"+train.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(train));
         System.out.println("-------------------------- 12 ---------------------------------");
         Event event = new Event("Tech Talk", "Jayanagar", "12-Apr-2025");
-        System.out.println(event);
+        System.out.println("To String Details :"+ event);
+        System.out.println("Hash Code value :"+event.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(event));
         System.out.println("-------------------------- 13 ---------------------------------");
         OnlineCourse course = new OnlineCourse("Java Programming", "Mr. Ravi", 6);
-        System.out.println(course);
+        System.out.println("To String Details :"+ course);
+        System.out.println("Hash Code value :"+course.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(course));
         System.out.println("-------------------------- 14 ---------------------------------");
         Hospital hospital = new Hospital("City Care", "Cardiology", 12);
-        System.out.println(hospital);
+        System.out.println("To String Details :"+ hospital);
+        System.out.println("Hash Code value :"+hospital.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(hospital));
         System.out.println("-------------------------- 15 ---------------------------------");
         BankAccount account = new BankAccount("Abhishek Kumar", "SBI", 8750.25);
-        System.out.println(account);
+        System.out.println("To String Details :"+ account);
+        System.out.println("Hash Code value :"+account.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(account));
         System.out.println("-------------------------- 16 ---------------------------------");
         MusicPlayer player = new MusicPlayer("Perfect", "Ed Sheeran", 263);
-        System.out.println(player);
+        System.out.println("To String Details :"+ player);
+        System.out.println("Hash Code value :"+player.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(player));
         System.out.println("-------------------------- 17 ---------------------------------");
         WeatherReport report = new WeatherReport("Bangalore", 28.5, "Sunny");
-        System.out.println(report);
+        System.out.println("To String Details :"+ report);
+        System.out.println("Hash Code value :"+report.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(report));
         System.out.println("-------------------------- 18 ---------------------------------");
         Pet pet = new Pet("Tommy", "Dog", 4);
-        System.out.println(pet);
+        System.out.println("To String Details :"+ pet);
+        System.out.println("Hash Code value :"+pet.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(pet));
         System.out.println("-------------------------- 19 ---------------------------------");
         ShoppingCart cart = new ShoppingCart("Wireless Mouse", 2, 699.99);
-        System.out.println(cart);
+        System.out.println("To String Details :"+ cart);
+        System.out.println("Hash Code value :"+cart.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(cart));
         System.out.println("-------------------------- 20 ---------------------------------");
         Festival festival = new Festival("Diwali", "November", "Festival of Lights");
-        System.out.println(festival);
+        System.out.println("To String Details :"+ festival);
+        System.out.println("Hash Code value :"+festival.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(festival));
         System.out.println("-------------------------- 21 ---------------------------------");
         Engineer engineer = new Engineer("Abhishek", "Backend Development", 2);
-        System.out.println(engineer);
+        System.out.println("To String Details :"+ engineer);
+        System.out.println("Hash Code value :"+engineer.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(engineer));
         System.out.println("-------------------------- 22 ---------------------------------");
         Game game = new Game("God of War", "Action", 4.8);
-        System.out.println(game);
+        System.out.println("To String Details :"+ game);
+        System.out.println("Hash Code value :"+game.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(game));
         System.out.println("-------------------------- 23 ---------------------------------");
         YouTubeVideo video = new YouTubeVideo("Java OOP Explained", "Tech with Tim", 150000);
-        System.out.println(video);
+        System.out.println("To String Details :"+ video);
+        System.out.println("Hash Code value :"+video.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(video));
         System.out.println("-------------------------- 24  ---------------------------------");
         Car car = new Car("Toyota", "Innova Crysta", 2150000);
-        System.out.println(car);
+        System.out.println("To String Details :"+ car);
+        System.out.println("Hash Code value :"+car.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(car));
         System.out.println("-------------------------- 25 ---------------------------------");
         School school = new School("Green Valley High", "Whitefield", 850);
-        System.out.println(school);
+        System.out.println("To String Details :"+ school);
+        System.out.println("Hash Code value :"+school.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(school));
         System.out.println("-------------------------- 26 ---------------------------------");
         MobileApp app = new MobileApp("NoteX", "Productivity", 3.5);
-        System.out.println(app);
+        System.out.println("To String Details :"+ app);
+        System.out.println("Hash Code value :"+app.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(app));
         System.out.println("-------------------------- 27 ---------------------------------");
 
         ArtGallery gallery = new ArtGallery("ColorCanvas", "Ravi Verma", 35);
-        System.out.println(gallery);
+        System.out.println("To String Details :"+ gallery);
+        System.out.println("Hash Code value :"+gallery.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(gallery));
         System.out.println("-------------------------- 28 ---------------------------------");
         SpaceMission mission = new SpaceMission("Chandrayaan-3", "14-July-2023", "Moon");
-        System.out.println(mission);
+        System.out.println("To String Details :"+ mission);
+        System.out.println("Hash Code value :"+mission.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(mission));
         System.out.println("-------------------------- 29 ---------------------------------");
         Chef chef = new Chef("Sanjeev Kapoor", "Indian Cuisine", 25);
-        System.out.println(chef);
+        System.out.println("To String Details :"+ chef);
+        System.out.println("Hash Code value :"+chef.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(chef));
         System.out.println("-------------------------- 30 ---------------------------------");
         Doctor doctor = new Doctor("Neha Rao", "Dermatology", "Apollo Hospitals");
-        System.out.println(doctor);
+        System.out.println("To String Details :"+ doctor);
+        System.out.println("Hash Code value :"+doctor.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(doctor));
         System.out.println("-------------------------- 31 ---------------------------------");
         Airport airport = new Airport("Kempegowda International Airport", "Bangalore", 2);
-        System.out.println(airport);
+        System.out.println("To String Details :"+ airport);
+        System.out.println("Hash Code value :"+airport.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(airport));
         System.out.println("-------------------------- 32 ---------------------------------");
 
 
         TravelPackage trip = new TravelPackage("Himalayan Adventure", "Manali", 6);
-        System.out.println(trip);
+        System.out.println("To String Details :"+ trip);
+        System.out.println("Hash Code value :"+trip.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(trip));
         System.out.println("-------------------------- 33 ---------------------------------");
         Singer singer = new Singer("Arijit Singh", "Bollywood", 10);
-        System.out.println(singer);
+        System.out.println("To String Details :"+ bankHolder);
+        System.out.println("Hash Code value :"+bankHolder.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(bankHolder));
         System.out.println("-------------------------- 34 ---------------------------------");
         RealEstate estate = new RealEstate("Villa", "Electronic City", 9500000);
-        System.out.println(estate);
+        System.out.println("To String Details :"+ singer);
+        System.out.println("Hash Code value :"+singer.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(singer));
         System.out.println("-------------------------- 35 ---------------------------------");
         LabTest test = new LabTest("Blood Sugar", "Ananya", 450);
-        System.out.println(test);
+        System.out.println("To String Details :"+ test);
+        System.out.println("Hash Code value :"+test.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(test));
         System.out.println("--------------------------  36 ---------------------------------");
         Startup startup = new Startup("CodeSpark", "Ravi Sharma", 2022);
-        System.out.println(startup);
+        System.out.println("To String Details :"+ startup);
+        System.out.println("Hash Code value :"+startup.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(startup));
         System.out.println("-------------------------- 37 ---------------------------------");
         Tourist tourist = new Tourist("Liam", "Canada", 12);
-        System.out.println(tourist);
+        System.out.println("To String Details :"+ tourist);
+        System.out.println("Hash Code value :"+tourist.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(tourist));
         System.out.println("-------------------------- 38 ---------------------------------");
         Customer customer = new Customer("Sneha", "sneha@email.com", true);
-        System.out.println(customer);
+        System.out.println("To String Details :"+ customer);
+        System.out.println("Hash Code value :"+customer.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(customer));
         System.out.println("-------------------------- 39 ---------------------------------");
         DNASequence dna = new DNASequence("D1234", "ATCGTAGGCTA", 11);
-        System.out.println(dna);
+        System.out.println("To String Details :"+ dna);
+        System.out.println("Hash Code value :"+dna.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(dna));
         System.out.println("-------------------------- 40 ---------------------------------");
         Backpack bp = new Backpack("Wildcraft", 30, true);
-        System.out.println(bp);
+        System.out.println("To String Details :"+ bp);
+        System.out.println("Hash Code value :"+bp.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(bp));
         System.out.println("-------------------------- 41 ---------------------------------");
         CampingSite site = new CampingSite("Evergreen Pines", "Coorg", true);
-        System.out.println(site);
+        System.out.println("To String Details :"+ site);
+        System.out.println("Hash Code value :"+site.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(site));
         System.out.println("-------------------------- 42 ---------------------------------");
 
         Product product = new Product("Bluetooth Speaker", "Electronics", 150);
-        System.out.println(product);
+        System.out.println("To String Details :"+ product);
+        System.out.println("Hash Code value :"+product.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(product));
         System.out.println("-------------------------- 43 ---------------------------------");
         BookStore store = new BookStore("Crossword", 2000, "Indiranagar");
-        System.out.println(store);
+        System.out.println("To String Details :"+ store);
+        System.out.println("Hash Code value :"+store.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(store));
         System.out.println("-------------------------- 44 ---------------------------------");
         AIModel model = new AIModel("GPT-4", "4.0", "Text Generation");
-        System.out.println(model);
+        System.out.println("To String Details :"+ model);
+        System.out.println("Hash Code value :"+model.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(model));
         System.out.println("-------------------------- 45 ---------------------------------");
         University uni = new University("IIT Bombay", "India", 172);
-        System.out.println(uni);
+        System.out.println("To String Details :"+ uni);
+        System.out.println("Hash Code value :"+uni.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(uni));
         System.out.println("-------------------------- 46 ---------------------------------");
         TheatreShow show = new TheatreShow("Hamlet", "English", "7:30 PM");
-        System.out.println(show);
+        System.out.println("To String Details :"+ show);
+        System.out.println("Hash Code value :"+show.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(show));
         System.out.println("-------------------------- 47 ---------------------------------");
         Tool tool = new Tool("Drill Machine", "Power Tool", true);
-        System.out.println(tool);
+        System.out.println("To String Details :"+ tool);
+        System.out.println("Hash Code value :"+tool.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(tool));
         System.out.println("-------------------------- 48 ---------------------------------");
         Nurse nurse = new Nurse("Anita", 6, "ICU");
-        System.out.println(nurse);
+        System.out.println("To String Details :"+ nurse);
+        System.out.println("Hash Code value :"+nurse.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(nurse));
         System.out.println("-------------------------- 49 ---------------------------------");
         PowerPlant plant = new PowerPlant("Thermax", "Thermal", 1500);
-        System.out.println(plant);
+        System.out.println("To String Details :"+ plant);
+        System.out.println("Hash Code value :"+plant.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(plant));
         System.out.println("-------------------------- 50 ---------------------------------");
         Delivery delivery = new Delivery("PKG2025", "In Transit", "Hyderabad");
-        System.out.println(delivery);
+        System.out.println("To String Details :"+ delivery);
+        System.out.println("Hash Code value :"+delivery.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(delivery));
         System.out.println("-------------------------- 51 ---------------------------------");
         AlarmClock alarm = new AlarmClock("06:30", true, true);
-        System.out.println(alarm);
+        System.out.println("To String Details :"+ alarm);
+        System.out.println("Hash Code value :"+alarm.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(alarm));
         System.out.println("-------------------------- 52 ---------------------------------");
         MusicInstrument instrument = new MusicInstrument("Keyboard", "Percussion", true);
-        System.out.println(instrument);
+        System.out.println("To String Details :"+ instrument);
+        System.out.println("Hash Code value :"+instrument.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(instrument));
 
         System.out.println("-------------------------- 53 ---------------------------------");
         TrafficSignal signal = new TrafficSignal("BTM Layout", "Red", 45);
-        System.out.println(signal);
+        System.out.println("To String Details :"+ signal);
+        System.out.println("Hash Code value :"+signal.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(signal));
 
         System.out.println("-------------------------- 54 ---------------------------------");
         Camera cam = new Camera("Canon", 24, true);
-        System.out.println(cam);
+        System.out.println("To String Details :"+ cam);
+        System.out.println("Hash Code value :"+cam.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(cam));
         System.out.println("-------------------------- 55 ---------------------------------");
         InventoryItem item = new InventoryItem("USB Cable", 50, 199.99);
-        System.out.println(item);
+        System.out.println("To String Details :"+ item);
+        System.out.println("Hash Code value :"+item.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(item));
         System.out.println("-------------------------- 56 ---------------------------------");
         GymTrainer trainer = new GymTrainer("Rahul", 15, true);
-        System.out.println(trainer);
+        System.out.println("To String Details :"+ trainer);
+        System.out.println("Hash Code value :"+trainer.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(trainer));
         System.out.println("-------------------------- 57 ---------------------------------");
         Actor actor = new Actor("Allu Arjun", 41, "Pushpa");
-        System.out.println(actor);
+        System.out.println("To String Details :"+ actor);
+        System.out.println("Hash Code value :"+actor.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(actor));
+
+
         System.out.println("-------------------------- 58 ---------------------------------");
 
         AdventureTrip trip1 = new AdventureTrip("Manali", 5, true);
-        System.out.println(trip1);
+        System.out.println("To String Details :"+ trip1);
+        System.out.println("Hash Code value :"+trip1.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(trip1));
         System.out.println("-------------------------- 59 ---------------------------------");
         Cycle cycle = new Cycle("Hero", 18, false);
-        System.out.println(cycle);
+        System.out.println("To String Details :"+ cycle);
+        System.out.println("Hash Code value :"+cycle.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(cycle));
         System.out.println("-------------------------- 60 ---------------------------------");
 
         Painting painting = new Painting("Starry Night", "Vincent van Gogh", 1889);
-        System.out.println(painting);
+        System.out.println("To String Details :"+ painting);
+        System.out.println("Hash Code value :"+painting.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(painting));
         System.out.println("-------------------------- 61 ---------------------------------");
         MovieTicket movieTicket = new MovieTicket("KGF","A21",250);
-        System.out.println(movieTicket);
+        System.out.println("To String Details :"+ movieTicket);
+        System.out.println("Hash Code value :"+movieTicket.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(movieTicket));
         System.out.println("-------------------------- 62 ---------------------------------");
         DeliveryPerson dp = new DeliveryPerson("Kiran", "South Zone", true);
-        System.out.println(dp);
+        System.out.println("To String Details :"+ dp);
+        System.out.println("Hash Code value :"+dp.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(dp));
         System.out.println("-------------------------- 63 ---------------------------------");
         Temple temple = new Temple("ISKCON", "Rajajinagar", true);
-        System.out.println(temple);
+        System.out.println("To String Details :"+ temple);
+        System.out.println("Hash Code value :"+temple.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(temple));
         System.out.println("-------------------------- 64 ---------------------------------");
         TVShow show1 = new TVShow("Stranger Things", "Sci-Fi", 4);
-        System.out.println(show1);
+        System.out.println("To String Details :"+ show1);
+        System.out.println("Hash Code value :"+show1.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(show1));
         System.out.println("-------------------------- 65 ---------------------------------");
         Furniture chair = new Furniture("Chair", "Wood", 1500.00);
-        System.out.println(chair);
+        System.out.println("To String Details :"+ chair);
+        System.out.println("Hash Code value :"+chair.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(chair));
 
         System.out.println("-------------------------- 66 ---------------------------------");
         ElectricVehicle ev = new ElectricVehicle("Tata Nexon EV", 320, true);
-        System.out.println(ev);
+        System.out.println("To String Details :"+ ev);
+        System.out.println("Hash Code value :"+ev.hashCode());
+        System.out.println("Original HashCode value"+System.identityHashCode(ev));
         System.out.println("-------------------------- 67 ---------------------------------");
 
         Drone drone = new Drone("DJI Mini 3", 31.5, true);
-        System.out.println(drone);
-        System.out.println("-------------------------- 68 ---------------------------------");
+        System.out.println("To String Details :"+ drone);
+        System.out.println("Hash Code value :"+drone.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(drone));        System.out.println("-------------------------- 68 ---------------------------------");
 
         OnlineOrder order = new OnlineOrder("ORD1023", "Bluetooth Speaker", 2299.99);
-        System.out.println(order);
+        System.out.println("To String Details :"+ order);
+        System.out.println("Hash Code value :"+order.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(order));
         System.out.println("-------------------------- 69 ---------------------------------");
         AppUpdate update = new AppUpdate("WhatsApp", "2.24.8.1", true);
-        System.out.println(update);
+        System.out.println("To String Details :"+ update);
+        System.out.println("Hash Code value :"+update.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(update));
         System.out.println("-------------------------- 70 ---------------------------------");
         ParkingSlot slot = new ParkingSlot("A12", true, "Car");
-        System.out.println(slot);
+        System.out.println("To String Details :"+ slot);
+        System.out.println("Hash Code value :"+slot.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(slot));
         System.out.println("-------------------------- 71 ---------------------------------");
 
         YouTuber youtuber = new YouTuber("TechGuru", "Tech Reviews", 520);
-        System.out.println(youtuber);
+        System.out.println("To String Details :"+ youtuber);
+        System.out.println("Hash Code value :"+youtuber.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(youtuber));
         System.out.println("-------------------------- 72 ---------------------------------");
 
         BusStop stop = new BusStop("Majestic", "Route 222", true);
-        System.out.println(stop);
+        System.out.println("To String Details :"+ stop);
+        System.out.println("Hash Code value :"+stop.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(stop));
         System.out.println("-------------------------- 73 ---------------------------------");
         PodcastEpisode ep = new PodcastEpisode("Tech Trends", "Ravi", 35);
-        System.out.println(ep);
+        System.out.println("To String Details :"+ ep);
+        System.out.println("Hash Code value :"+ep.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ep));
         System.out.println("-------------------------- 74 ---------------------------------");
         FitnessTracker ft = new FitnessTracker("Abhi", 9876, 320.5);
-        System.out.println(ft);
+        System.out.println("To String Details :"+ ft);
+        System.out.println("Hash Code value :"+ft.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ft));
 
         System.out.println("-------------------------- 75 ---------------------------------");
         LaundryService ls = new LaundryService("Sneha", 15, true);
-        System.out.println(ls);
+        System.out.println("To String Details :"+ ls);
+        System.out.println("Hash Code value :"+ls.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ls));
         System.out.println("-------------------------- 76 ---------------------------------");
         ElectionCandidate candidate = new ElectionCandidate("Ravi Kumar", "Green Party", 45);
-        System.out.println(candidate);
+        System.out.println("To String Details :"+ candidate);
+        System.out.println("Hash Code value :"+candidate.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(candidate));
         System.out.println("-------------------------- 77 ---------------------------------");
         ATMTransaction txn = new ATMTransaction("TXN1009", "Withdrawal", 5000);
-        System.out.println(txn);
+        System.out.println("To String Details :"+ txn);
+        System.out.println("Hash Code value :"+txn.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(txn));
         System.out.println("-------------------------- 78 ---------------------------------");
 
         ThemePark park = new ThemePark("Wonderla", 50, true);
-        System.out.println(park);
+        System.out.println("To String Details :"+ park);
+        System.out.println("Hash Code value :"+park.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(park));
         System.out.println("-------------------------- 79 ---------------------------------");
         BloodDonor donor = new BloodDonor("Arjun", "O+", 7);
-        System.out.println(donor);
+        System.out.println("To String Details :"+ donor);
+        System.out.println("Hash Code value :"+donor.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(donor));
 
         System.out.println("-------------------------- 80 ---------------------------------");
         ElectricBill bill = new ElectricBill("Geetha", 350, 2100.50);
-        System.out.println(bill);
+        System.out.println("To String Details :"+ bill);
+        System.out.println("Hash Code value :"+bill.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(bill));
         System.out.println("-------------------------- 81 ---------------------------------");
         TattooArtist artist = new TattooArtist("Riya", "Minimalist", 380);
-        System.out.println(artist);
+        System.out.println("To String Details :"+ artist);
+        System.out.println("Hash Code value :"+artist.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(artist));
         System.out.println("-------------------------- 82 ---------------------------------");
         RecyclingCenter rc = new RecyclingCenter("Pune", 560, true);
-        System.out.println(rc);
+        System.out.println("To String Details :"+ rc);
+        System.out.println("Hash Code value :"+rc.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(rc));
         System.out.println("-------------------------- 83 ---------------------------------");
         ZooAnimal animal = new ZooAnimal("Lion", "Simba", 5);
-        System.out.println(animal);
+        System.out.println("To String Details :"+ animal);
+        System.out.println("Hash Code value :"+animal.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(animal));
         System.out.println("-------------------------- 84 ---------------------------------");
         GamingConsole console = new GamingConsole("Sony", "PS5", 825);
-        System.out.println(console);
+        System.out.println("To String Details :"+ console);
+        System.out.println("Hash Code value :"+console.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(console));
         System.out.println("-------------------------- 85 ---------------------------------");
         ElectricScooter scooter = new ElectricScooter("Ather", 108, true);
-        System.out.println(scooter);
+        System.out.println("To String Details :"+ scooter);
+        System.out.println("Hash Code value :"+scooter.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(scooter));
         System.out.println("-------------------------- 86 ---------------------------------");
         BakeryItem item1 = new BakeryItem("Cupcake", "Red Velvet", 80.0);
-        System.out.println(item1);
+        System.out.println("To String Details :"+ item1);
+        System.out.println("Hash Code value :"+item1.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(item1));
         System.out.println("-------------------------- 87 ---------------------------------");
 
         NewsArticle article = new NewsArticle("AI Reshaping the World", "K. Abhishek", "Technology");
-        System.out.println(article);
+        System.out.println("To String Details :"+ article);
+        System.out.println("Hash Code value :"+article.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(article));
         System.out.println("-------------------------- 88 ---------------------------------");
         Sneaker shoe = new Sneaker("Nike", "White", 9);
-        System.out.println(shoe);
+        System.out.println("To String Details :"+ shoe);
+        System.out.println("Hash Code value :"+shoe.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(shoe));
         System.out.println("-------------------------- 89 ---------------------------------");
         EBook ebook = new EBook("Digital Fortress", "Dan Brown", 2.5);
-        System.out.println(ebook);
+        System.out.println("To String Details :"+ ebook);
+        System.out.println("Hash Code value :"+ebook.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ebook));
         System.out.println("-------------------------- 90 ---------------------------------");
 
         MusicPlaylist playlist = new MusicPlaylist("Morning Chill", "Lo-Fi", 25);
-        System.out.println(playlist);
+        System.out.println("To String Details :"+ playlist);
+        System.out.println("Hash Code value :"+playlist.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(playlist));
 
         System.out.println("-------------------------- 91 ---------------------------------");
         HikingTrail trail = new HikingTrail("Nandi Hills", 8, true);
-        System.out.println(trail);
+        System.out.println("To String Details :"+ trail);
+        System.out.println("Hash Code value :"+trail.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(trail));
         System.out.println("-------------------------- 92 ---------------------------------");
         CodingContest contest = new CodingContest("Code Rush", "HackerRank", 3);
-        System.out.println(contest);
+        System.out.println("To String Details :"+ contest);
+        System.out.println("Hash Code value :"+contest.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(contest));
         System.out.println("-------------------------- 93 ---------------------------------");
 
         HomeAppliance appliance = new HomeAppliance("Microwave", "Samsung", 1200);
-        System.out.println(appliance);
+        System.out.println("To String Details :"+ appliance);
+        System.out.println("Hash Code value :"+appliance.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(appliance));
 
         System.out.println("-------------------------- 94 ---------------------------------");
         CityMetroCard card = new CityMetroCard("Divya", 300, true);
-        System.out.println(card);
+        System.out.println("To String Details :"+ card);
+        System.out.println("Hash Code value :"+card.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(card));
 
         System.out.println("-------------------------- 95 ---------------------------------");
         MuseumExhibit exhibit = new MuseumExhibit("Ancient Sword", "Medieval", true);
-        System.out.println(exhibit);
+        System.out.println("To String Details :"+ exhibit);
+        System.out.println("Hash Code value :"+exhibit.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(exhibit));
         System.out.println("-------------------------- 96 ---------------------------------");
         DroneDelivery delivery2 = new DroneDelivery("PK123", "Koramangala", false);
-        System.out.println(delivery2);
+        System.out.println("To String Details :"+ delivery2);
+        System.out.println("Hash Code value :"+delivery2.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(delivery2));
         System.out.println("-------------------------- 97 ---------------------------------");
         EventTicket ticket1 = new EventTicket("Comic Con", "B12", 599.0);
-        System.out.println(ticket1);
+        System.out.println("To String Details :"+ ticket1);
+        System.out.println("Hash Code value :"+ticket1.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ticket1));
         System.out.println("-------------------------- 98 ---------------------------------");
         MountainTrail mt = new MountainTrail("Kudremukh", 850, true);
-        System.out.println(mt);
+        System.out.println("To String Details :"+ mt);
+        System.out.println("Hash Code value :"+mt.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(mt));
         System.out.println("-------------------------- 99 ---------------------------------");
 
         ForestTrail ft1 = new ForestTrail("Dandeli", 5, true);
-        System.out.println(ft1);
+        System.out.println("To String Details :"+ ft1);
+        System.out.println("Hash Code value :"+ft1.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(ft1));
         System.out.println("-------------------------- 100 ---------------------------------");
 
         TrailMap map = new TrailMap("Western Ghats", 22, 4);
-        System.out.println(map);
+        System.out.println("To String Details :"+ map);
+        System.out.println("Hash Code value :"+map.hashCode());
+        System.out.println("Original HashCode value :"+System.identityHashCode(map));
 //        System.out.println("-------------------------- 1 ---------------------------------");
 //        TrailWeather tw = new TrailWeather("Savandurga", "Winter", "Sunny");
 //        System.out.println(tw);
@@ -352,62 +553,6 @@ public class MainRunner {
 //        System.out.println("-------------------------- 1 ---------------------------------");
 //
 //
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

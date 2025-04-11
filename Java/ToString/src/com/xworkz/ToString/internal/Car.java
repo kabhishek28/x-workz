@@ -16,6 +16,9 @@ public class Car {
         public String toString() {
             return "Car Brand: " + brand + ", Model: " + model + ", Price: ₹" + price;
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

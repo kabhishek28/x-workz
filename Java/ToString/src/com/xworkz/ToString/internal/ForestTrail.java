@@ -15,6 +15,10 @@ public class ForestTrail {
     public String toString() {
         return "Forest: " + forestName + ", Trails: " + trailCount + ", Wildlife: " + hasWildlife;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

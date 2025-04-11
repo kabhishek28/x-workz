@@ -15,6 +15,11 @@ public class EventTicket {
     public String toString() {
         return "Event: " + eventName + ", Seat: " + seat + ", Cost: ₹" + cost;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

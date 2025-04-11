@@ -15,6 +15,11 @@ public class Temple {
     public String toString() {
         return "Temple: " + name + ", Location: " + location + ", Open: " + isOpen;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

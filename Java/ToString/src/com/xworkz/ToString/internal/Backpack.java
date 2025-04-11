@@ -17,6 +17,9 @@ package com.xworkz.ToString.internal;
         public String toString() {
             return "Backpack: " + brand + ", Capacity: " + capacity + "L, Laptop Compartment: " + hasLaptopCompartment;
         }
-
+        @Override
+        public int hashCode(){
+            return 4;
+        }
 
 }

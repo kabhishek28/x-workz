@@ -15,6 +15,11 @@ public class MusicPlaylist {
     public String toString() {
         return "Playlist: " + name + ", Genre: " + genre + ", Songs: " + numberOfSongs;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

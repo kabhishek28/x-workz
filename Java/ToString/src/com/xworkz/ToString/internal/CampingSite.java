@@ -15,5 +15,9 @@ public class CampingSite {
     public String toString() {
         return "Camping Site: " + siteName + ", Location: " + location + ", Water Access: " + hasWaterAccess;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 

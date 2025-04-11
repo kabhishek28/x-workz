@@ -16,6 +16,9 @@ public class YouTubeVideo {
         public String toString() {
             return "Video Title: " + title + ", Creator: " + creator + ", Views: " + views;
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

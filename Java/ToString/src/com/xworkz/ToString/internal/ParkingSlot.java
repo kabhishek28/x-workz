@@ -15,6 +15,11 @@ public class ParkingSlot {
     public String toString() {
         return "Slot: " + slotId + ", Occupied: " + isOccupied + ", Vehicle Type: " + vehicleType;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

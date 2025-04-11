@@ -17,5 +17,8 @@ public class Gym {
             return "Gym: " + name + ", Membership: " + membershipType + ", Duration: " + durationMonths + " months";
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

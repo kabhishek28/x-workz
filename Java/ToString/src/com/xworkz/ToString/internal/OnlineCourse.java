@@ -17,5 +17,10 @@ public class OnlineCourse {
             return "Course: " + courseName + ", Instructor: " + instructor + ", Duration: " + durationWeeks + " weeks";
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
 
 }

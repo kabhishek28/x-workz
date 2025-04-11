@@ -17,5 +17,8 @@ public class Event {
             return "Event: " + eventName + ", Location: " + location + ", Date: " + date;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

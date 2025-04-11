@@ -18,5 +18,10 @@ public class Movie {
             return "Title: " + title + ", Genre: " + genre + ", Duration: " + duration + " mins";
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
 
 }

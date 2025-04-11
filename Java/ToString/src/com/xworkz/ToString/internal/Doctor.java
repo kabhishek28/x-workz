@@ -17,5 +17,8 @@ public class Doctor {
             return "Dr. " + name + ", Specialization: " + specialization + ", Hospital: " + hospital;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

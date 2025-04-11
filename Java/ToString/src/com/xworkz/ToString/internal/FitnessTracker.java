@@ -15,6 +15,11 @@ public class FitnessTracker {
     public String toString() {
         return "User: " + user + ", Steps: " + steps + ", Calories: " + calories;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

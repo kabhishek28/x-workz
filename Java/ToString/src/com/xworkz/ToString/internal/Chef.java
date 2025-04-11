@@ -17,5 +17,8 @@ public class Chef {
             return "Chef: " + name + ", Specialty: " + specialty + ", Experience: " + experienceYears + " years";
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

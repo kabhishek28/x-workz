@@ -15,4 +15,9 @@ public class RealEstate {
     public String toString() {
         return "Property: " + propertyType + ", Location: " + location + ", Price: ₹" + price;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

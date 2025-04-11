@@ -16,6 +16,12 @@ public class DroneDelivery {
     public String toString() {
         return "Package ID: " + packageId + ", Destination: " + destination + ", Delivered: " + isDelivered;
     }
+
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

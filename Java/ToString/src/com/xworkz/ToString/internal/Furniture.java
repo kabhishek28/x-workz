@@ -15,6 +15,10 @@ public class Furniture {
     public String toString() {
         return "Furniture: " + type + ", Material: " + material + ", Price: ₹" + price;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

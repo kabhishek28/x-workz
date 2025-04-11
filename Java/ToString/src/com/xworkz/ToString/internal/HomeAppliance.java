@@ -15,6 +15,11 @@ public class HomeAppliance {
     public String toString() {
         return "Appliance: " + applianceName + ", Brand: " + brand + ", Power: " + powerWatts + "W";
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

@@ -15,6 +15,11 @@ public class Drone {
     public String toString() {
         return "Drone Model: " + model + ", Flight Time: " + flightTime + " mins, Camera: " + hasCamera;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

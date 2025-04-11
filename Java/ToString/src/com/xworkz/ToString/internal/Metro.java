@@ -15,5 +15,8 @@ public class Metro {
     public String toString(){
         return "Pick Up Point"+pickUpPoint +" Drop point" + dropPoint + "price "+price;
     }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

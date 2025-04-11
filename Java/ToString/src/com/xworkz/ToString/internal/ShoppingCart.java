@@ -17,5 +17,10 @@ public class ShoppingCart {
             return "Item: " + itemName + ", Quantity: " + quantity + ", Unit Price: ₹" + unitPrice;
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
 
 }

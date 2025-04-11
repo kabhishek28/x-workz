@@ -15,6 +15,11 @@ public class AppUpdate {
     public String toString() {
         return "App: " + appName + ", Version: " + version + ", Mandatory Update: " + isMandatory;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

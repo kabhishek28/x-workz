@@ -15,6 +15,12 @@ public class CodingContest {
     public String toString() {
         return "Contest: " + contestName + ", Platform: " + platform + ", Duration: " + durationHours + " hrs";
     }
+
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
-    // Runner
+

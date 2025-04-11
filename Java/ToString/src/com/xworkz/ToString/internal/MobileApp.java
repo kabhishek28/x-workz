@@ -17,5 +17,8 @@ public class MobileApp {
             return "App: " + appName + ", Category: " + category + ", Version: " + version;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

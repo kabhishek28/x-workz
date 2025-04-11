@@ -17,5 +17,8 @@ public class Cafe {
             return "Cafe: " + cafeName + ", Item: " + item + ", Price: ₹" + price;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

@@ -15,4 +15,9 @@ public class MovieTicket {
     public String toString() {
         return "Movie: " + movieName + ", Seat: " + seatNumber + ", Price: ₹" + price;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

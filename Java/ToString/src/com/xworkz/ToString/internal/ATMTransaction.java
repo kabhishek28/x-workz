@@ -16,6 +16,11 @@ public class ATMTransaction {
     public String toString() {
         return "Transaction: " + transactionId + ", Type: " + type + ", Amount: ₹" + amount;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

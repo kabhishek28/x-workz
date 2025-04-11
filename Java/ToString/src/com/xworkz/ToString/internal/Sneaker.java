@@ -15,6 +15,10 @@ public class Sneaker {
     public String toString() {
         return "Sneaker: " + brand + ", Color: " + color + ", Size: " + size;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

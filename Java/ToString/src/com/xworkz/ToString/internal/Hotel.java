@@ -16,6 +16,9 @@ public class Hotel {
         public String toString() {
             return "Hotel Name: " + name + ", City: " + city + ", Cost/Night: ₹" + costPerNight;
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

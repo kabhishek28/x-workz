@@ -15,4 +15,9 @@ public class BookStore {
     public String toString() {
         return "Bookstore: " + name + ", Books: " + totalBooks + ", Location: " + location;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

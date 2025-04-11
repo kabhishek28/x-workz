@@ -15,6 +15,11 @@ public class EBook {
     public String toString() {
         return "EBook: " + title + " by " + author + ", Size: " + fileSize + "MB";
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

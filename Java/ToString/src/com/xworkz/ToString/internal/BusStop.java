@@ -15,5 +15,10 @@ public class BusStop {
     public String toString() {
         return "Stop: " + name + ", Route: " + route + ", Shelter: " + hasShelter;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 

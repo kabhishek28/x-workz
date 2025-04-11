@@ -17,5 +17,8 @@ public class Train {
             return "Train: " + trainName + ", Departs: " + departure + ", Arrives: " + arrival;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

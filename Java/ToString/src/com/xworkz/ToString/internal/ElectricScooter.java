@@ -15,6 +15,11 @@ public class ElectricScooter {
     public String toString() {
         return "Scooter: " + company + ", Range: " + range + "km, Bluetooth: " + hasBluetooth;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

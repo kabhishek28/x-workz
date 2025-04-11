@@ -15,6 +15,11 @@ public class LaundryService {
     public String toString() {
         return "Customer: " + customerName + ", Clothes: " + clothesCount + ", Express: " + express;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

@@ -17,5 +17,8 @@ public class Game {
             return "Game: " + gameName + ", Genre: " + genre + ", Rating: " + rating + "/5";
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

@@ -15,4 +15,9 @@ public class Painting {
     public String toString() {
         return "Painting: '" + title + "' by " + artist + ", Year: " + year;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

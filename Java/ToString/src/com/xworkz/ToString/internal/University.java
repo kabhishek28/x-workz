@@ -17,5 +17,8 @@ package com.xworkz.ToString.internal;
             return "University: " + name + ", Country: " + country + ", World Ranking: " + ranking;
         }
 
-
+        @Override
+        public int hashCode(){
+            return 4;
+        }
 }

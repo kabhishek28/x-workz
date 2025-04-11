@@ -15,4 +15,9 @@ public class MusicInstrument {
     public String toString() {
         return "Instrument: " + name + ", Type: " + type + ", Electronic: " + isElectronic;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

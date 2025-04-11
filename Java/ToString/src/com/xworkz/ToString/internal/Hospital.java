@@ -17,6 +17,9 @@ public class Hospital {
         public String toString() {
             return "Hospital: " + hospitalName + ", Department: " + department + ", Doctors: " + numberOfDoctors;
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

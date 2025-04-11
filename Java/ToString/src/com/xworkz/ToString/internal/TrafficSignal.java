@@ -15,5 +15,10 @@ public class TrafficSignal {
     public String toString() {
         return "Signal at: " + location + ", Light: " + currentColor + ", Timer: " + timerInSeconds + " sec";
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 

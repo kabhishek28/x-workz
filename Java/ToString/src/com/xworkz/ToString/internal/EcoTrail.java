@@ -15,6 +15,12 @@ public class EcoTrail {
     public String toString() {
         return "Park: " + parkName + ", Plastic Allowed: " + plasticAllowed + ", Rating: " + ecoRating;
     }
+
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

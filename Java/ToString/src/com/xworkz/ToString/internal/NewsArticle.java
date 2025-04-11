@@ -15,6 +15,11 @@ public class NewsArticle {
     public String toString() {
         return "Headline: " + headline + ", Author: " + author + ", Category: " + category;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

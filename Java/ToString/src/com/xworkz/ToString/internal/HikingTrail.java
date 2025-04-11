@@ -15,6 +15,11 @@ public class HikingTrail {
     public String toString() {
         return "Trail: " + trailName + ", Length: " + lengthKm + " km, Dog Friendly: " + dogFriendly;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

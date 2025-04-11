@@ -17,5 +17,9 @@ public class SpaceMission {
             return "Mission: " + missionName + ", Launch: " + launchDate + ", Destination: " + destination;
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

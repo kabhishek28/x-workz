@@ -15,6 +15,11 @@ public class BloodDonor {
     public String toString() {
         return "Donor: " + name + ", Blood Group: " + bloodGroup + ", Donations: " + donations;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

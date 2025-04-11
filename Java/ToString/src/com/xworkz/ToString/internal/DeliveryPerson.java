@@ -15,6 +15,11 @@ public class DeliveryPerson {
     public String toString() {
         return "Name: " + name + ", Zone: " + zone + ", On Duty: " + onDuty;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

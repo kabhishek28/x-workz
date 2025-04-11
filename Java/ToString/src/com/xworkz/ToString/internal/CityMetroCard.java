@@ -15,6 +15,11 @@ public class CityMetroCard {
     public String toString() {
         return "Card Holder: " + cardHolder + ", Balance: ₹" + balance + ", Active: " + isActive;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

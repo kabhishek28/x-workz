@@ -15,6 +15,11 @@ public class ElectricVehicle {
     public String toString() {
         return "EV Model: " + model + ", Range: " + rangeKm + "km, Fast Charging: " + fastCharging;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

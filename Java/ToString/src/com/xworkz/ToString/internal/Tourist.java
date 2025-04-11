@@ -15,4 +15,9 @@ public class Tourist {
     public String toString() {
         return "Tourist: " + name + ", From: " + country + ", Places Visited: " + placesVisited;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

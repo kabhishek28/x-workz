@@ -18,4 +18,9 @@ public class Bank {
     public String toString(){
         return "account no :"+accountNo +", Type :"+type+", holderName :"+holderName;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

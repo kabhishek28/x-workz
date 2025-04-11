@@ -17,4 +17,9 @@ public class BusTicket {
             return "From: " + source + " To: " + destination + "Fare: "+fare;
 
         }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

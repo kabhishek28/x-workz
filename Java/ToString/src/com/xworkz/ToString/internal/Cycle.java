@@ -15,4 +15,10 @@ public class Cycle {
     public String toString() {
         return "Cycle: " + brand + ", Gears: " + gearCount + ", Electric: " + isElectric;
     }
+
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

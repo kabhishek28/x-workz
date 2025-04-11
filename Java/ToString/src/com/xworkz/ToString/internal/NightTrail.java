@@ -15,6 +15,11 @@ public class NightTrail {
     public String toString() {
         return "Location: " + location + ", Full Moon: " + fullMoon + ", Participants: " + participants;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

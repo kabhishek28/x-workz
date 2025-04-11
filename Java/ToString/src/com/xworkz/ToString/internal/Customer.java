@@ -15,4 +15,9 @@ public class Customer {
     public String toString() {
         return "Customer: " + name + ", Email: " + email + ", Premium: " + isPremium;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

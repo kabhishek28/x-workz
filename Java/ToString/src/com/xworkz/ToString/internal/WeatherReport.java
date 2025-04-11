@@ -17,5 +17,8 @@ public class WeatherReport {
             return "Weather in " + city + ": " + temperature + "°C, " + condition;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

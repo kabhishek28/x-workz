@@ -15,4 +15,9 @@ public class AlarmClock {
     public String toString() {
         return "Alarm Set For: " + time + (isAM ? " AM" : " PM") + ", Active: " + isActive;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

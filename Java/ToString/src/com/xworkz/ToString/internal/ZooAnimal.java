@@ -15,6 +15,11 @@ public class ZooAnimal {
     public String toString() {
         return "Animal: " + name + " (" + species + "), Age: " + age;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
-    // Runner
+

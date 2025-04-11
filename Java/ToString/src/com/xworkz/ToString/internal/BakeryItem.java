@@ -15,6 +15,10 @@ public class BakeryItem {
     public String toString() {
         return "Item: " + itemName + ", Flavor: " + flavor + ", Price: ₹" + price;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

@@ -15,5 +15,11 @@ public class AIModel {
     public String toString() {
         return "AI Model: " + modelName + ", Version: " + version + ", Purpose: " + purpose;
     }
+
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 

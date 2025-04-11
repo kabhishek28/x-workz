@@ -17,5 +17,10 @@ public class Restaurant {
             return "Restaurant Name: " + name + ", Location: " + location + ", Rating: " + rating + "/5";
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
 
 }

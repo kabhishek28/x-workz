@@ -17,5 +17,8 @@ package com.xworkz.ToString.internal;
             return "Test: " + testName + ", Patient: " + patientName + ", Cost: ₹" + cost;
         }
 
-
+        @Override
+        public int hashCode(){
+            return 4;
+        }
 }

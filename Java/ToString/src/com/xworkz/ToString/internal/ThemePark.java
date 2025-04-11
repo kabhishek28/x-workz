@@ -15,6 +15,11 @@ public class ThemePark {
     public String toString() {
         return "Theme Park: " + name + ", Rides: " + rides + ", Water Park: " + waterPark;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

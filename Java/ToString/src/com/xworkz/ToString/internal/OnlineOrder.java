@@ -15,6 +15,11 @@ public class OnlineOrder {
     public String toString() {
         return "Order ID: " + orderId + ", Item: " + itemName + ", Amount: ₹" + amount;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

@@ -16,6 +16,9 @@ public class ArtGallery {
         public String toString() {
             return "Gallery: " + galleryName + ", Featured Artist: " + artist + ", Paintings: " + totalPaintings;
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

@@ -15,4 +15,8 @@ public class GymTrainer {
     public String toString() {
         return "Trainer: " + name + ", Clients: " + clients + ", Certified: " + isCertified;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

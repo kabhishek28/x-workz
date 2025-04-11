@@ -15,4 +15,9 @@ public class Startup {
     public String toString() {
         return "Startup: " + name + ", Founder: " + founder + ", Founded in: " + yearFounded;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

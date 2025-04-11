@@ -15,4 +15,9 @@ public class Airport {
     public String toString() {
         return "Airport: " + name + ", City: " + city + ", Terminals: " + terminals;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

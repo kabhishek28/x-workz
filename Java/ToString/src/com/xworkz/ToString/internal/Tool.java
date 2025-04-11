@@ -15,4 +15,9 @@ public class Tool {
     public String toString() {
         return "Tool: " + name + ", Type: " + type + ", Electric: " + isElectric;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

@@ -15,6 +15,11 @@ public class MuseumExhibit {
     public String toString() {
         return "Exhibit: " + exhibitName + ", Period: " + period + ", On Display: " + isOnDisplay;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

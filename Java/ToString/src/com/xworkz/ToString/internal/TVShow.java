@@ -15,6 +15,10 @@ public class TVShow {
     public String toString() {
         return "TV Show: " + title + ", Genre: " + genre + ", Seasons: " + seasons;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

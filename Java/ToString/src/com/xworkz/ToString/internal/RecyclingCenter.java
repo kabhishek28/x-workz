@@ -15,6 +15,11 @@ public class RecyclingCenter {
     public String toString() {
         return "City: " + city + ", Plastic Collected: " + plasticKg + "kg, Electronics: " + acceptsElectronics;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

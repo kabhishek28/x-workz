@@ -16,6 +16,9 @@ package com.xworkz.ToString.internal;
         public String toString() {
             return "Package ID: " + packageId + ", Status: " + status + ", Destination: " + destination;
         }
-
+        @Override
+        public int hashCode(){
+            return 4;
+        }
 
 }

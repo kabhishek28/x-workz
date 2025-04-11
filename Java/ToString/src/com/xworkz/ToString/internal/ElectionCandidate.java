@@ -15,6 +15,11 @@ public class ElectionCandidate {
     public String toString() {
         return "Candidate: " + name + ", Party: " + party + ", Age: " + age;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

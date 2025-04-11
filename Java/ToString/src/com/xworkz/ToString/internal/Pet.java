@@ -17,5 +17,8 @@ public class Pet {
             return "Pet Name: " + name + ", Type: " + type + ", Age: " + age + " years";
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

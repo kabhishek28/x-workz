@@ -15,4 +15,11 @@ public class AdventureTrip {
     public String toString() {
         return "Trip to: " + destination + ", Duration: " + durationDays + " days, Trekking: " + includesTrekking;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
+
 }

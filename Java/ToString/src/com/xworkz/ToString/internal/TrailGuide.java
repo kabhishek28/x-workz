@@ -15,6 +15,11 @@ public class TrailGuide {
     public String toString() {
         return "Guide: " + guideName + ", Experience: " + yearsExperience + " yrs, Certified: " + certified;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

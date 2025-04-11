@@ -18,5 +18,8 @@ public class Engineer {
             return "Engineer: " + name + ", Domain: " + domain + ", Experience: " + experience + " years";
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

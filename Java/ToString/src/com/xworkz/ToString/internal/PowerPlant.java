@@ -15,4 +15,9 @@ public class PowerPlant {
     public String toString() {
         return "Power Plant: " + name + ", Type: " + type + ", Capacity: " + capacity + " MW";
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

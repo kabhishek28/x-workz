@@ -16,6 +16,9 @@ public class MusicPlayer {
         public String toString() {
             return "Now Playing: " + songTitle + " by " + artist + ", Duration: " + duration + " secs";
         }
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

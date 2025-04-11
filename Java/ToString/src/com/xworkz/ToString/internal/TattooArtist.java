@@ -14,6 +14,11 @@ public class TattooArtist {
     public String toString() {
         return "Tattoo Artist: " + name + ", Style: " + style + ", Tattoos: " + completedTattoos;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

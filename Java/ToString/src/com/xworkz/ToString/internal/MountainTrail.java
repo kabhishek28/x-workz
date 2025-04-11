@@ -15,6 +15,11 @@ public class MountainTrail {
     public String toString() {
         return "Mountain: " + mountainName + ", Elevation Gain: " + elevationGain + "m, Camping: " + hasCamping;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

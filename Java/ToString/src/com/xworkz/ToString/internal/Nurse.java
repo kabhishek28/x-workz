@@ -15,4 +15,8 @@ public class Nurse {
     public String toString() {
         return "Nurse: " + name + ", Experience: " + experienceYears + " years, Department: " + department;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

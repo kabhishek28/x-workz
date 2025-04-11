@@ -17,5 +17,8 @@ public class Library {
             return "Book: " + bookTitle + " by " + author + ", Pages: " + totalPages;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

@@ -15,4 +15,9 @@ public class InventoryItem {
     public String toString() {
         return "Item: " + itemName + ", Quantity: " + quantity + ", Price: ₹" + price;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

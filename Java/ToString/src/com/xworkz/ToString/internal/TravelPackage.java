@@ -15,4 +15,8 @@ public class TravelPackage {
     public String toString() {
         return "Package: " + packageName + ", Destination: " + destination + ", Duration: " + days + " days";
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

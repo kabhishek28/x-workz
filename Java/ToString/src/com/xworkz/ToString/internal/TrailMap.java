@@ -15,6 +15,10 @@ public class TrailMap {
     public String toString() {
         return "Region: " + region + ", Distance: " + totalDistance + " km, Stops: " + numberOfStops;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

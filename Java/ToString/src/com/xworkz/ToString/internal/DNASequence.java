@@ -15,4 +15,9 @@ public class DNASequence {
     public String toString() {
         return "DNA ID: " + id + ", Sequence: " + sequence + ", Length: " + length;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

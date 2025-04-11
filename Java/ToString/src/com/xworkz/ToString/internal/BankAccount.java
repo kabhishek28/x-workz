@@ -17,5 +17,8 @@ public class BankAccount {
             return "Account Holder: " + accountHolder + ", Bank: " + bankName + ", Balance: ₹" + balance;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

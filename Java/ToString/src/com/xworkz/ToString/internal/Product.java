@@ -15,4 +15,9 @@ public class Product {
     public String toString() {
         return "Product: " + name + ", Category: " + category + ", In Stock: " + stock;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

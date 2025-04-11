@@ -15,6 +15,10 @@ public class TrailWeather {
     public String toString() {
         return "Trail: " + trailName + ", Season: " + season + ", Weather: " + expectedWeather;
     }
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

@@ -17,5 +17,10 @@ public class School {
             return "School: " + name + ", Location: " + location + ", Students: " + studentCount;
         }
 
+    @Override
+    public int hashCode(){
+        return 4;
+    }
+
 
 }

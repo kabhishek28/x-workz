@@ -15,6 +15,11 @@ public class ElectricBill {
     public String toString() {
         return "Consumer: " + consumerName + ", Units: " + units + ", Amount: ₹" + totalAmount;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
 
     // Runner

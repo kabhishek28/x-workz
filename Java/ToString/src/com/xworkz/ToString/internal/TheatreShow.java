@@ -15,4 +15,9 @@ public class TheatreShow {
     public String toString() {
         return "Show: " + showName + ", Language: " + language + ", Time: " + time;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }

@@ -17,6 +17,9 @@ public class Festival {
             return "Festival: " + festivalName + ", Month: " + month + ", About: " + significance;
         }
 
-
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 
 }

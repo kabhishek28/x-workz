@@ -15,4 +15,9 @@ public class Singer {
     public String toString() {
         return "Singer: " + name + ", Genre: " + genre + ", Albums: " + albumsReleased;
     }
+
+    @Override
+    public int hashCode(){
+        return 4;
+    }
 }
