@@ -19,6 +19,19 @@ public class TrailMap {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object obj){
+        if(obj != null){
+            if(obj instanceof TrailMap){
+                TrailMap trailMap = (TrailMap) obj;
+                if(this.region.equals(trailMap.region) && this.numberOfStops == trailMap.numberOfStops && this.totalDistance == trailMap.totalDistance){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

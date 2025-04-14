@@ -20,4 +20,18 @@ public class MusicInstrument {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MusicInstrument) {
+                MusicInstrument other = (MusicInstrument) object;
+                if (this.name.equals(other.name) &&
+                        this.type.equals(other.type) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

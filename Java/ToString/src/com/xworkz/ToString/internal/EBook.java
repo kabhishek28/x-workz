@@ -20,6 +20,21 @@ public class EBook {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof EBook) {
+                EBook other = (EBook) object;
+                if (this.title.equals(other.title) &&
+                        this.author.equals(other.author) &&
+                        this.fileSize == other.fileSize) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

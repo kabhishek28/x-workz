@@ -22,5 +22,18 @@ public class School {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof School) {
+                School other = (School) object;
+                if (this.name.equals(other.name) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 
 }

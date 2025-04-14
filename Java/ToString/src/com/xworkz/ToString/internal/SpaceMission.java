@@ -22,4 +22,17 @@ public class SpaceMission {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof SpaceMission) {
+                SpaceMission other = (SpaceMission) object;
+                if (this.destination.equals(other.destination) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

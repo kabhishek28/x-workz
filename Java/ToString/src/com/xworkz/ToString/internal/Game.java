@@ -21,4 +21,17 @@ public class Game {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Game) {
+                Game other = (Game) object;
+                if (this.genre.equals(other.genre) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

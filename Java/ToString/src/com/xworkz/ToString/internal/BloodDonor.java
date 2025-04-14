@@ -20,6 +20,21 @@ public class BloodDonor {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof BloodDonor) {
+                BloodDonor other = (BloodDonor) object;
+                if (this.name.equals(other.name) &&
+                        this.bloodGroup.equals(other.bloodGroup) &&
+                        this.donations == other.donations) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

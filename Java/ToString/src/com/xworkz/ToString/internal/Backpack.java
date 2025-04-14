@@ -22,4 +22,18 @@ package com.xworkz.ToString.internal;
             return 4;
         }
 
+        @Override
+        public boolean equals(Object object) {
+            if (object != null) {
+                if (object instanceof Backpack) {
+                    Backpack other = (Backpack) object;
+                    if (this.brand.equals(other.brand) &&
+                            this.capacity == other.capacity) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
 }

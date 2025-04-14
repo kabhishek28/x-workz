@@ -21,4 +21,17 @@ public class Library {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object obj){
+            if(obj != null){
+                if(obj instanceof Library){
+                    Library library = (Library) obj;
+                    if(this.totalPages == library.totalPages){
+                        return true;
+                    }
+                }
+            }
+            return false;
+    }
 }

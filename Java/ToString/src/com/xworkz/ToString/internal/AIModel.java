@@ -21,5 +21,19 @@ public class AIModel {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof AIModel) {
+                AIModel other = (AIModel) object;
+                if (this.modelName.equals(other.modelName) &&
+                        this.version.equals(other.version)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

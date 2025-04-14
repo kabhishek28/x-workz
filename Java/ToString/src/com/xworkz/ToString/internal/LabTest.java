@@ -21,4 +21,18 @@ package com.xworkz.ToString.internal;
         public int hashCode(){
             return 4;
         }
+
+        @Override
+        public boolean equals(Object object) {
+            if (object != null) {
+                if (object instanceof LabTest) {
+                    LabTest other = (LabTest) object;
+                    if (this.testName.equals(other.testName) &&
+                            this.patientName.equals(other.patientName) ) {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
 }

@@ -20,6 +20,21 @@ public class RecyclingCenter {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof RecyclingCenter) {
+                RecyclingCenter other = (RecyclingCenter) object;
+                if (this.city.equals(other.city) &&
+                        this.plasticKg == other.plasticKg &&
+                        this.acceptsElectronics == other.acceptsElectronics) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

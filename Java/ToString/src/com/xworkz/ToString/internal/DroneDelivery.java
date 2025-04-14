@@ -22,7 +22,21 @@ public class DroneDelivery {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof DroneDelivery) {
+                DroneDelivery other = (DroneDelivery) object;
+                if (this.isDelivered == other.isDelivered &&
+                        this.packageId.equals(other.packageId) &&
+                        this.destination.equals(other.destination)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
-    // Runner
+
 

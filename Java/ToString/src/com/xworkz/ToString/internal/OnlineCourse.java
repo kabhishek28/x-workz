@@ -22,5 +22,18 @@ public class OnlineCourse {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof OnlineCourse) {
+                OnlineCourse other = (OnlineCourse) object;
+                if (this.instructor.equals(other.instructor) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 
 }

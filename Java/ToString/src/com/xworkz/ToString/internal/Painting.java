@@ -20,4 +20,18 @@ public class Painting {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Painting) {
+                Painting other = (Painting) object;
+                if (this.title.equals(other.title) &&
+                        this.artist.equals(other.artist) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -20,4 +20,17 @@ public class InventoryItem {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof InventoryItem) {
+                InventoryItem other = (InventoryItem) object;
+                if (this.itemName.equals(other.itemName) &&
+                        this.price == other.price) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

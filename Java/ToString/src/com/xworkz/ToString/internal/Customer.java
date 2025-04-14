@@ -20,4 +20,18 @@ public class Customer {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Customer) {
+                Customer other = (Customer) object;
+                if (this.name.equals(other.name) &&
+                        this.email.equals(other.email) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

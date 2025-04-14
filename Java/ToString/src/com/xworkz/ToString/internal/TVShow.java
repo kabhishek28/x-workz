@@ -19,6 +19,21 @@ public class TVShow {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof TVShow) {
+                TVShow other = (TVShow) object;
+                if (this.title.equals(other.title) &&
+                        this.genre.equals(other.genre) &&
+                        this.seasons == other.seasons) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

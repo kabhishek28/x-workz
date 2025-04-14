@@ -21,6 +21,21 @@ public class CodingContest {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof CodingContest) {
+                CodingContest other = (CodingContest) object;
+                if (this.contestName.equals(other.contestName) &&
+                        this.platform.equals(other.platform) &&
+                        this.durationHours == other.durationHours) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
 

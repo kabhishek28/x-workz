@@ -21,4 +21,17 @@ public class Car {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Car) {
+                Car other = (Car) object;
+                if (this.brand.equals(other.brand) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

@@ -21,4 +21,18 @@ public class Cycle {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Cycle) {
+                Cycle other = (Cycle) object;
+                if (this.brand.equals(other.brand) &&
+                        this.gearCount == other.gearCount) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

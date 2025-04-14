@@ -20,6 +20,21 @@ public class LaundryService {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof LaundryService) {
+                LaundryService other = (LaundryService) object;
+                if (this.customerName.equals(other.customerName) &&
+                        this.clothesCount == other.clothesCount &&
+                        this.express == other.express) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

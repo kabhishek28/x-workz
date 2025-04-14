@@ -20,6 +20,21 @@ public class ElectionCandidate {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ElectionCandidate) {
+                ElectionCandidate other = (ElectionCandidate) object;
+                if (this.name.equals(other.name) &&
+                        this.party.equals(other.party) &&
+                        this.age == other.age) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

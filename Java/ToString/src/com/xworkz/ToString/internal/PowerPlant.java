@@ -20,4 +20,18 @@ public class PowerPlant {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof PowerPlant) {
+                PowerPlant other = (PowerPlant) object;
+                if (this.name.equals(other.name) &&
+                        this.type.equals(other.type) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

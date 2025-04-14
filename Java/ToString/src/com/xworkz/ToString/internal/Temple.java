@@ -20,6 +20,21 @@ public class Temple {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Temple) {
+                Temple other = (Temple) object;
+                if (this.name.equals(other.name) &&
+                        this.location.equals(other.location) &&
+                        this.isOpen == other.isOpen) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

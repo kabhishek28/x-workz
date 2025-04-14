@@ -20,4 +20,17 @@ public class RealEstate {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof RealEstate) {
+                RealEstate other = (RealEstate) object;
+                if (this.location.equals(other.location) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

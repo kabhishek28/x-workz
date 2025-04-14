@@ -19,6 +19,21 @@ public class BakeryItem {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof BakeryItem) {
+                BakeryItem other = (BakeryItem) object;
+                if (this.itemName.equals(other.itemName) &&
+                        this.flavor.equals(other.flavor) &&
+                        this.price == other.price) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

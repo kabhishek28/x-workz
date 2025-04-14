@@ -20,6 +20,21 @@ public class ThemePark {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ThemePark) {
+                ThemePark other = (ThemePark) object;
+                if (this.name.equals(other.name) &&
+                        this.rides == other.rides &&
+                        this.waterPark == other.waterPark) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

@@ -20,6 +20,21 @@ public class CityMetroCard {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof CityMetroCard) {
+                CityMetroCard other = (CityMetroCard) object;
+                if (this.cardHolder.equals(other.cardHolder) &&
+                        this.balance == other.balance &&
+                        this.isActive == other.isActive) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

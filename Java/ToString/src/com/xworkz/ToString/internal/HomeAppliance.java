@@ -20,6 +20,21 @@ public class HomeAppliance {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof HomeAppliance) {
+                HomeAppliance other = (HomeAppliance) object;
+                if (this.applianceName.equals(other.applianceName) &&
+                        this.brand.equals(other.brand) &&
+                        this.powerWatts == other.powerWatts) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

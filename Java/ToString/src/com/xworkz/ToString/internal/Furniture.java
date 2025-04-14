@@ -19,6 +19,21 @@ public class Furniture {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Furniture) {
+                Furniture other = (Furniture) object;
+                if (this.type.equals(other.type) &&
+                        this.material.equals(other.material) &&
+                        this.price == other.price) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

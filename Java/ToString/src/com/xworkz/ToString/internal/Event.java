@@ -21,4 +21,16 @@ public class Event {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Event) {
+                Event other = (Event) object;
+                if (this.date.equals(other.date) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

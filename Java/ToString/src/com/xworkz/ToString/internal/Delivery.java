@@ -21,4 +21,19 @@ package com.xworkz.ToString.internal;
             return 4;
         }
 
+        @Override
+        public boolean equals(Object object) {
+            if (object != null) {
+                if (object instanceof Delivery) {
+                    Delivery other = (Delivery) object;
+                    if (this.packageId.equals(other.packageId) &&
+                            this.status.equals(other.status) )
+                            {
+                        return true;
+                    }
+                }
+            }
+            return false;
+        }
+
 }

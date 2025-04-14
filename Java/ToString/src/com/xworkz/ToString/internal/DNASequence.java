@@ -20,4 +20,17 @@ public class DNASequence {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof DNASequence) {
+                DNASequence other = (DNASequence) object;
+                if (this.id.equals(other.id) &&
+                        this.sequence.equals(other.sequence) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -20,4 +20,18 @@ public class Camera {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Camera) {
+                Camera other = (Camera) object;
+                if (this.brand.equals(other.brand) &&
+                        this.megapixels == other.megapixels) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

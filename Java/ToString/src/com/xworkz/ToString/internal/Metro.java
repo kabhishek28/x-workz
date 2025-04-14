@@ -19,4 +19,17 @@ public class Metro {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object){
+        if(object != null ){
+            if(object instanceof Metro){
+                Metro metro = (Metro) object;
+                if(this.dropPoint.equals(metro.dropPoint)){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

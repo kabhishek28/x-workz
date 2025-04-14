@@ -20,5 +20,20 @@ public class BusStop {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof BusStop) {
+                BusStop other = (BusStop) object;
+                if (this.name.equals(other.name) &&
+                        this.route.equals(other.route) &&
+                        this.hasShelter == other.hasShelter) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

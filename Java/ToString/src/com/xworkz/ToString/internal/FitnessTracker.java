@@ -20,6 +20,21 @@ public class FitnessTracker {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof FitnessTracker) {
+                FitnessTracker other = (FitnessTracker) object;
+                if (this.user.equals(other.user) &&
+                        this.steps == other.steps &&
+                        this.calories == other.calories) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

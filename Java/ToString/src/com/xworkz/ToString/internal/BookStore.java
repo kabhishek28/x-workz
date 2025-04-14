@@ -20,4 +20,18 @@ public class BookStore {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof BookStore) {
+                BookStore other = (BookStore) object;
+                if (this.name.equals(other.name) &&
+                        this.location.equals(other.location)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

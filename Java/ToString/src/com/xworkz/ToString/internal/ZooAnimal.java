@@ -1,5 +1,7 @@
 package com.xworkz.ToString.internal;
 
+import java.security.cert.X509Certificate;
+
 public class ZooAnimal {
     private String species;
     private String name;
@@ -19,6 +21,21 @@ public class ZooAnimal {
     @Override
     public int hashCode(){
         return 4;
+    }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ZooAnimal) {
+                ZooAnimal other = (ZooAnimal) object;
+                if (this.species.equals(other.species) &&
+                        this.name.equals(other.name) &&
+                        this.age == other.age) {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }
 

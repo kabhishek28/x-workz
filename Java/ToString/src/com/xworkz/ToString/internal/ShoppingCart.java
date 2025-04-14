@@ -22,5 +22,18 @@ public class ShoppingCart {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ShoppingCart) {
+                ShoppingCart other = (ShoppingCart) object;
+                if (this.itemName.equals(other.itemName) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 
 }

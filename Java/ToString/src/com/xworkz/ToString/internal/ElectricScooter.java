@@ -20,6 +20,21 @@ public class ElectricScooter {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ElectricScooter) {
+                ElectricScooter other = (ElectricScooter) object;
+                if (this.company.equals(other.company) &&
+                        this.range == other.range &&
+                        this.hasBluetooth == other.hasBluetooth) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

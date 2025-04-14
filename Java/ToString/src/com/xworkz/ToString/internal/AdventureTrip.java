@@ -21,5 +21,21 @@ public class AdventureTrip {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object){
+        if(object != null){
+
+            if(object instanceof AdventureTrip){
+                AdventureTrip adventureTrip = this;
+                AdventureTrip adventureTrip1 = (AdventureTrip) object;
+                if(adventureTrip.durationDays == adventureTrip1.durationDays){
+                    return true;
+                }
+            }
+
+        }
+        return  false;
+    }
+
 
 }

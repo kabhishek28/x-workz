@@ -20,4 +20,19 @@ public class MovieTicket {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MovieTicket) {
+                MovieTicket other = (MovieTicket) object;
+                if (this.movieName.equals(other.movieName) &&
+                        this.seatNumber.equals(other.seatNumber) &&
+                        this.price == other.price) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

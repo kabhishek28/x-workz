@@ -19,6 +19,20 @@ public class Sneaker {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Sneaker) {
+                Sneaker other = (Sneaker) object;
+                if (this.brand.equals(other.brand) &&
+                        this.color.equals(other.color) &&
+                        this.size == other.size) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

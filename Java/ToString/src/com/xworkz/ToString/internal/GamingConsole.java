@@ -20,6 +20,21 @@ public class GamingConsole {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof GamingConsole) {
+                GamingConsole other = (GamingConsole) object;
+                if (this.brand.equals(other.brand) &&
+                        this.model.equals(other.model) &&
+                        this.storage == other.storage) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

@@ -20,6 +20,22 @@ public class NewsArticle {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof NewsArticle) {
+                NewsArticle other = (NewsArticle) object;
+                if (this.headline.equals(other.headline) &&
+                        this.author.equals(other.author) &&
+                        this.category.equals(other.category)){
+
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
-    // Runner
+

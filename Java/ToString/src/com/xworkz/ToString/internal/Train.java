@@ -21,4 +21,17 @@ public class Train {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Train) {
+                Train other = (Train) object;
+                if (this.departure.equals(other.departure) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

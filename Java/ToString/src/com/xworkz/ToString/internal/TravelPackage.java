@@ -19,4 +19,17 @@ public class TravelPackage {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof TravelPackage) {
+                TravelPackage other = (TravelPackage) object;
+                if (this.destination.equals(other.destination) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

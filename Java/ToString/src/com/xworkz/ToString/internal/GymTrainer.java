@@ -19,4 +19,17 @@ public class GymTrainer {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof GymTrainer) {
+                GymTrainer other = (GymTrainer) object;
+                if (this.name.equals(other.name) &&
+                        this.clients == other.clients) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

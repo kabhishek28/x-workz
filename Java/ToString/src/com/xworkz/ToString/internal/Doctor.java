@@ -21,4 +21,17 @@ public class Doctor {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Doctor) {
+                Doctor other = (Doctor) object;
+                if (this.specialization.equals(other.specialization) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

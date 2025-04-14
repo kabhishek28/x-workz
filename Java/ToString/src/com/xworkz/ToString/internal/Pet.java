@@ -21,4 +21,17 @@ public class Pet {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Pet) {
+                Pet other = (Pet) object;
+                if (this.type.equals(other.type) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

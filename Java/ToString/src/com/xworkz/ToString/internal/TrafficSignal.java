@@ -20,5 +20,19 @@ public class TrafficSignal {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof TrafficSignal) {
+                TrafficSignal other = (TrafficSignal) object;
+                if (this.location.equals(other.location) &&
+                        this.currentColor.equals(other.currentColor)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

@@ -20,4 +20,18 @@ public class Tool {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Tool) {
+                Tool other = (Tool) object;
+                if (this.name.equals(other.name) &&
+                        this.type.equals(other.type) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

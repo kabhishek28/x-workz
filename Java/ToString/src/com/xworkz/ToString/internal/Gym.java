@@ -21,4 +21,17 @@ public class Gym {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Gym) {
+                Gym other = (Gym) object;
+                if (this.durationMonths == other.durationMonths)  {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

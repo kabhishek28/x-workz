@@ -22,4 +22,17 @@ public class Engineer {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Engineer) {
+                Engineer other = (Engineer) object;
+                if (this.domain.equals(other.domain) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

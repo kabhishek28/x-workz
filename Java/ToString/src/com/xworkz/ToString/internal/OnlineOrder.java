@@ -20,6 +20,21 @@ public class OnlineOrder {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof OnlineOrder) {
+                OnlineOrder other = (OnlineOrder) object;
+                if (this.orderId.equals(other.orderId) &&
+                        this.itemName.equals(other.itemName) &&
+                        this.amount == other.amount) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

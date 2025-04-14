@@ -21,4 +21,17 @@ public class MusicPlayer {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MusicPlayer) {
+                MusicPlayer other = (MusicPlayer) object;
+                if (this.artist.equals(other.artist) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

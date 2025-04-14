@@ -23,5 +23,17 @@ public class Movie {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+            if(obj != null){
+                if(obj instanceof Movie){
+                    Movie movie = (Movie) obj;
+                    if(this.duration == movie.duration){
+                        return true;
 
+                    }
+                }
+            }
+        return false;
+    }
 }

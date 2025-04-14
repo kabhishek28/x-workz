@@ -21,4 +21,17 @@ public class WeatherReport {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof WeatherReport) {
+                WeatherReport other = (WeatherReport) object;
+                if (this.condition.equals(other.condition) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

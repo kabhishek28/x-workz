@@ -20,6 +20,21 @@ public class ElectricVehicle {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ElectricVehicle) {
+                ElectricVehicle other = (ElectricVehicle) object;
+                if (this.model.equals(other.model) &&
+                        this.rangeKm == other.rangeKm &&
+                        this.fastCharging == other.fastCharging) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

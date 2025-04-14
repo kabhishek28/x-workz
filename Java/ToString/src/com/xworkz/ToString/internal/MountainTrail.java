@@ -20,6 +20,19 @@ public class MountainTrail {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object){
+        if(object != null){
+            if(object instanceof MountainTrail){
+                MountainTrail mountainTrail = (MountainTrail) object;
+                if(this.hasCamping == mountainTrail.hasCamping && this.mountainName.equals(mountainTrail.mountainName) && this.elevationGain == mountainTrail.elevationGain){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

@@ -20,6 +20,21 @@ public class ParkingSlot {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ParkingSlot) {
+                ParkingSlot other = (ParkingSlot) object;
+                if (this.slotId.equals(other.slotId) &&
+                        this.vehicleType.equals(other.vehicleType) &&
+                        this.isOccupied == other.isOccupied) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

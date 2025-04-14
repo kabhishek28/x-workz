@@ -21,4 +21,16 @@ public class Hotel {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if(obj != null){
+            if(obj instanceof Hotel){
+                Hotel hotel = (Hotel) obj;
+                if(this.costPerNight == hotel.costPerNight){
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -20,6 +20,21 @@ public class HikingTrail {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof HikingTrail) {
+                HikingTrail other = (HikingTrail) object;
+                if (this.trailName.equals(other.trailName) &&
+                        this.lengthKm == other.lengthKm &&
+                        this.dogFriendly == other.dogFriendly) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

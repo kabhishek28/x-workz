@@ -20,6 +20,21 @@ public class DeliveryPerson {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof DeliveryPerson) {
+                DeliveryPerson other = (DeliveryPerson) object;
+                if (this.name.equals(other.name) &&
+                        this.zone.equals(other.zone) &&
+                        this.onDuty == other.onDuty) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

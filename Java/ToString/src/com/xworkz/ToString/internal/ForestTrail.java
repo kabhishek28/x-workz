@@ -19,6 +19,19 @@ public class ForestTrail {
     public int hashCode(){
         return 4;
     }
+
+    public boolean equals(Object obj){
+        if(obj != null){
+            if(obj instanceof ForestTrail){
+                ForestTrail forestTrail = (ForestTrail) obj;
+                if(this.hasWildlife == forestTrail.hasWildlife && this.forestName.equals(forestTrail.forestName) && this.trailCount == forestTrail.trailCount){
+                    return  true;
+                }
+            }
+
+        }
+        return false;
+    }
 }
 
     // Runner

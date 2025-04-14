@@ -20,4 +20,18 @@ public class Startup {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Startup) {
+                Startup other = (Startup) object;
+                if (this.name.equals(other.name) &&
+                        this.founder.equals(other.founder) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

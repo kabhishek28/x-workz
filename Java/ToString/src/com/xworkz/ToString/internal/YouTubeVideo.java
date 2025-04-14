@@ -21,4 +21,17 @@ public class YouTubeVideo {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof YouTubeVideo) {
+                YouTubeVideo other = (YouTubeVideo) object;
+                if (this.creator.equals(other.creator) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

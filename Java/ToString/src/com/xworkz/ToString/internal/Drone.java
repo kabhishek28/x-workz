@@ -20,6 +20,21 @@ public class Drone {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Drone) {
+                Drone other = (Drone) object;
+                if (this.model.equals(other.model) &&
+                        this.flightTime == other.flightTime &&
+                        this.hasCamera == other.hasCamera) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

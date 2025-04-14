@@ -20,4 +20,19 @@ public class Product {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Product) {
+                Product other = (Product) object;
+                if (this.name.equals(other.name) &&
+                        this.category.equals(other.category)
+                        ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -22,4 +22,17 @@ public class Flight {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Flight) {
+                Flight other = (Flight) object;
+                if (this.airline.equals(other.airline) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

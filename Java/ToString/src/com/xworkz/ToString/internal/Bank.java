@@ -8,7 +8,7 @@ public class Bank {
     private String type;
     private String holderName;
 
-    protected Bank(int accountNo, String type, String holderName) {
+    public Bank(int accountNo, String type, String holderName) {
         this.accountNo = accountNo;
         this.type = type;
         this.holderName = holderName;
@@ -23,4 +23,16 @@ public class Bank {
     public int hashCode(){
         return 4;
     }
+
+//    @Override
+//    public boolean equals(Object object){
+//        if(object != null){
+//            if(object instanceof BankHolder){
+//                BankHolder bankHolder = (BankHolder) object;
+//                if(this.accountNo == bankHolder.)
+//            }
+//        }
+//
+//        return false;
+//    }
 }

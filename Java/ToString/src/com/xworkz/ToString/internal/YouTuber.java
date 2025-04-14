@@ -19,6 +19,21 @@ public class YouTuber {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof YouTuber) {
+                YouTuber other = (YouTuber) object;
+                if (this.name.equals(other.name) &&
+                        this.niche.equals(other.niche) &&
+                        this.videos == other.videos) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
 

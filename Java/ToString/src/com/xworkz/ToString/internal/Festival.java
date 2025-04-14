@@ -22,4 +22,17 @@ public class Festival {
         return 4;
     }
 
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Festival) {
+                Festival other = (Festival) object;
+                if (this.significance.equals(other.significance) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
 }

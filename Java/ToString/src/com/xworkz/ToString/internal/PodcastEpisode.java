@@ -20,4 +20,19 @@ public class PodcastEpisode {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof PodcastEpisode) {
+                PodcastEpisode other = (PodcastEpisode) object;
+                if (this.title.equals(other.title) &&
+                        this.host.equals(other.host) &&
+                        this.duration == other.duration) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

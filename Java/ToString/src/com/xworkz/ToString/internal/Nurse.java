@@ -19,4 +19,18 @@ public class Nurse {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Nurse) {
+                Nurse other = (Nurse) object;
+                if (this.name.equals(other.name) &&
+                        this.experienceYears == other.experienceYears) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

@@ -19,8 +19,30 @@
 
 
         @Override
-        public int hashCode(){
+        public int hashCode() {
             return 4;
+        }
+
+
+        @Override
+        public boolean equals(Object object) {
+            if (object != null) {
+
+                if (object instanceof Actor) {
+                    //Actor actor = this;
+                    Actor actor1 = (Actor) object;
+                    System.out.println(this.name);
+                    System.out.println(actor1.name);
+                    if (actor1.age == this.age) {
+                        return true;
+                    }
+
+
+                }
+
+            }
+            return false;
+
         }
     }
 

@@ -22,4 +22,17 @@ public class BusTicket {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof BusTicket) {
+                BusTicket other = (BusTicket) object;
+                if (this.fare == other.fare)  {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

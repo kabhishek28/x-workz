@@ -20,4 +20,17 @@ public class Airport {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof Airport) {
+                Airport other = (Airport) object;
+                if (this.city.equals(other.city) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

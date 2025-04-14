@@ -21,6 +21,21 @@ public class ATMTransaction {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ATMTransaction) {
+                ATMTransaction other = (ATMTransaction) object;
+                if (this.transactionId.equals(other.transactionId) &&
+                        this.type.equals(other.type) &&
+                        this.amount == other.amount) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

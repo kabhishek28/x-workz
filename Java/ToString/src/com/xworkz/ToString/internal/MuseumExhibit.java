@@ -20,6 +20,21 @@ public class MuseumExhibit {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MuseumExhibit) {
+                MuseumExhibit other = (MuseumExhibit) object;
+                if (this.exhibitName.equals(other.exhibitName) &&
+                        this.period.equals(other.period) &&
+                        this.isOnDisplay == other.isOnDisplay) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
-    // Runner
+

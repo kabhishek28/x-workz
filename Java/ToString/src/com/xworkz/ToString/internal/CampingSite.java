@@ -19,5 +19,18 @@ public class CampingSite {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof CampingSite) {
+                CampingSite other = (CampingSite) object;
+                if (this.siteName.equals(other.siteName) &&
+                        this.location.equals(other.location)) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 

@@ -20,6 +20,20 @@ public class ElectricBill {
     public int hashCode(){
         return 4;
     }
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof ElectricBill) {
+                ElectricBill other = (ElectricBill) object;
+                if (this.consumerName.equals(other.consumerName) &&
+                        this.units == other.units &&
+                        this.totalAmount == other.totalAmount) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner

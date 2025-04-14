@@ -21,4 +21,17 @@ public class MobileApp {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MobileApp) {
+                MobileApp other = (MobileApp) object;
+                if (this.category.equals(other.category) ) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

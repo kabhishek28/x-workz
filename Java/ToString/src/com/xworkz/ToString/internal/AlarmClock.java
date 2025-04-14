@@ -20,4 +20,18 @@ public class AlarmClock {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof AlarmClock) {
+                AlarmClock other = (AlarmClock) object;
+                if (this.time.equals(other.time) &&
+                        this.isAM == other.isAM) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }

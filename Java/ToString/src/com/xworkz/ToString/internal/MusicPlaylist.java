@@ -20,6 +20,21 @@ public class MusicPlaylist {
     public int hashCode(){
         return 4;
     }
+
+    @Override
+    public boolean equals(Object object) {
+        if (object != null) {
+            if (object instanceof MusicPlaylist) {
+                MusicPlaylist other = (MusicPlaylist) object;
+                if (this.name.equals(other.name) &&
+                        this.genre.equals(other.genre) &&
+                        this.numberOfSongs == other.numberOfSongs) {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
 }
 
     // Runner
