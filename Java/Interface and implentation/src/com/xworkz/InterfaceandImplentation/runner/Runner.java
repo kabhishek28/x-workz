@@ -1,30 +1,51 @@
 package com.xworkz.InterfaceandImplentation.runner;
 
 import com.xworkz.InterfaceandImplentation.RulesClass.*;
+import com.xworkz.InterfaceandImplentation.external.twoInterface.*;
 import com.xworkz.InterfaceandImplentation.internal.*;
 
-public class Runner {
+public class Runner extends Object {
     public static void main(String[] args) {
         System.out.println("----------------------1-----------------------");
-        CollegeRules collegeRules = new Xworkz();
-        collegeRules.wearFormals();
-        collegeRules.wearID();
-        collegeRules.wearShoue();
+
+//        Object object = new Xworkz();
+//
+//        int[] values={5};
+//        values.eq
+//
+//
+//        CollegeRules collegeRules = new Xworkz();
+//        collegeRules.wearFormals();
+//        collegeRules.wearID();
+//        collegeRules.wearShoue();
+//
+//
+//
+//
+//
+//        Xworkz xworkz = new Xworkz();
+
+
+
+
 
         Xworkz xworkz = new Xworkz();
         xworkz.wearFormals();
         xworkz.wearID();
         xworkz.wearShoue();
 
+
         OfficeRules officeRules = new IBM();
         officeRules.Timing();
         officeRules.wearID();
         officeRules.wearShoue();
 
+
         DroneSprayer droneSprayer = new AgroDrone();
         droneSprayer.returnHome();
         droneSprayer.sprayPesticides();
         droneSprayer.takeOff();
+
 
         SmartWatch smartWatch = new AppleWatch();
         smartWatch.displayTime();
@@ -32,9 +53,9 @@ public class Runner {
         smartWatch.runApps();
 
         ControlTower controlTower = new ATCStation();
-       controlTower.authorizeLanding();
-       controlTower.authorizeTakeOff();
-       controlTower.monitorAirspace();
+        controlTower.authorizeLanding();
+        controlTower.authorizeTakeOff();
+        controlTower.monitorAirspace();
 
        ATMMachine atmMachine = new BankATM();
        atmMachine.acceptCard();
@@ -347,7 +368,8 @@ public class Runner {
 
        University university = new TechUniversity();
        university.conductExam();
-       university.enrollStudent();university.publishResult();
+       university.enrollStudent();
+       university.publishResult();
 
        ElectricCar electricCar = new TeslaModelS();
        electricCar.chargeBattery();
@@ -390,20 +412,225 @@ public class Runner {
        windTurbine.startTurbine();
 
 
+        Agriculture agriculture = new Agriculture();
+        agriculture.startTurbine();
+        agriculture.regulateFlow();
+        agriculture.shutdownPlant();
+        agriculture.startIrrigation();
+        agriculture.monitorSoilMoisture();
+        agriculture.stopIrrigation();
+
+        System.out.println("*-------------------------------------*");
+        IrrigationSystem irrigationSystem1 = new Agriculture();
+        irrigationSystem1.startIrrigation();
+        irrigationSystem1.stopIrrigation();
+        irrigationSystem1.monitorSoilMoisture();
+        HydroPowerPlant hydroPowerPlant1 = new Agriculture();
+        hydroPowerPlant1.startTurbine();
+        hydroPowerPlant1.shutdownPlant();
+        hydroPowerPlant1.regulateFlow();
+
+
+        SpaService spaService1 = new AstroResearch();
+        spaService1.bookAppointment();
+        spaService1.provideService();
+        spaService1.collectFeedback();
+        Telemedicine telemedicine1 = new AstroResearch();
+        telemedicine1.transmitMedicalRecords();
+        telemedicine1.scheduleConsultation();
+        telemedicine1.conductVideoCall();
+
+        Courier courier1 = new CourierSystem();
+        courier1.trackParcel();
+        courier1.dispatchParcel();
+        courier1.deliverParcel();
+        CourierService courierService1 = new CourierSystem();
+        courierService1.trackPackage();
+        courierService1.pickUpPackage();
+        courierService1.deliverPackage();
+
+
+        DroneSprayer droneSprayer1 = new FarmingDrone();
+        droneSprayer1.returnHome();
+        droneSprayer1.takeOff();
+        droneSprayer1.sprayPesticides();
+        SmartDevice smartDevice1 = new FarmingDrone();
+        smartDevice1.turnOn();
+        smartDevice1.operate();
+        smartDevice1.turnOff();
+
+        FashionBoutique fashionBoutique1 = new FashionProduct();
+        fashionBoutique1.processPurchase();
+        fashionBoutique1.displayCollection();
+        fashionBoutique1.assistCustomer();
+        FitnessApp fitnessApp1 = new FashionProduct();
+        fitnessApp1.trackExercise();
+        fitnessApp1.showProgress();
+        fitnessApp1.calculateDistance();
+
+
+        FitnessTracker fitnessTracker1 = new FitnessMonitor();
+        fitnessTracker1.syncData();
+        fitnessTracker1.recordWorkout();
+        fitnessTracker1.calculateCalories();
+        SmartWatch smartWatch1 = new FitnessMonitor();
+        smartWatch1.displayTime();
+        smartWatch1.runApps();
+        smartWatch1.monitorHeartRate();
 
 
 
+        OnlineGame onlineGame1 = new GameZone();
+        onlineGame1.endGame();
+        onlineGame1.startGame();
+        onlineGame1.updateScore();
+        VideoGameConsole videoGameConsole1 = new GameZone();
+        videoGameConsole1.powerOff();
+        videoGameConsole1.loadGame();
+        videoGameConsole1.powerOn();
 
 
+        ElectricCar electricCar1 = new HybridVehicle();
+        electricCar1.showStatus();
+        electricCar1.drive();
+        electricCar1.chargeBattery();
+        AutonomousVehicle autonomousVehicle1 = new HybridVehicle();
+        autonomousVehicle1.stopNavigation();
+        autonomousVehicle1.avoidObstacles();
+        autonomousVehicle1.startNavigation();
 
 
+        MedicalDevice medicalDevice1 = new MedicalInstrument();
+        medicalDevice1.triggerAlarm();
+        medicalDevice1.startMonitoring();
+        medicalDevice1.analyzePatientData();
+        MedicalLab medicalLab1 = new MedicalInstrument();
+        medicalLab1.collectSample();
+        medicalLab1.deliverResults();
+        medicalLab1.processSample();
 
 
+        WaterTreatment waterTreatment1 = new NaturalResources();
+        waterTreatment1.monitorFlow();
+        waterTreatment1.purifyWater();
+        waterTreatment1.adjustPressure();
+        WindTurbine windTurbine1 = new NaturalResources();
+        windTurbine1.startTurbine();
+        windTurbine1.shutdownTurbine();
+        windTurbine1.adjustBlades();
 
 
+        NewsChannel newsChannel1 = new NewsBroadcaster();
+        newsChannel1.schedulePrograms();
+        newsChannel1.broadcastNews();
+        newsChannel1.airAdvertisement();
+        StreamingService streamingService1 = new NewsBroadcaster();
+        streamingService1.streamMovie();
+        streamingService1.stopStream();
+        streamingService1.pauseStream();
 
 
+        ELearningPlatform eLearningPlatform1 = new OnlineEducator();
+        eLearningPlatform1.gradeAssignment();
+        eLearningPlatform1.enrollCourse();
+        eLearningPlatform1.deliverLecture();
+        VirtualClassroom virtualClassroom1 = new OnlineEducator();
+        virtualClassroom1.submitAssignment();
+        virtualClassroom1.joinClass();
+        virtualClassroom1.participateDiscussion();
 
+
+        PropertyDealer propertyDealer1 = new PropertyDetails();
+        propertyDealer1.finalizeDeal();
+        propertyDealer1.showProperty();
+        propertyDealer1.listProperty();
+        PropertyManagement propertyManagement1 = new PropertyDetails();
+        propertyManagement1.updateListing();
+        propertyManagement1.scheduleMaintenance();
+        propertyManagement1.collectRent();
+
+
+        Robot robot1  = new RoboAssistant();
+        robot1.recharge();
+        robot1.move();
+        robot1.pickObject();
+        ChatBot chatBot1 = new RoboAssistant();
+        chatBot1.sendResponse();
+        chatBot1.receiveMessage();
+        chatBot1.processMessage();
+
+        Robot robot2 = new RoboticArmCraft();
+        robot2.pickObject();
+        robot2.move();
+        robot2.recharge();
+        RobotArm robotArm1 = new RoboticArmCraft();
+        robotArm1.shutdown();
+        robotArm1.initialize();
+        robotArm1.moveArm();
+
+
+        AccessControl accessControl1 = new SecuritySystem();
+        accessControl1.revokeAccess();
+        accessControl1.grantAccess();
+        accessControl1.auditAccess();
+        Firewall firewall1 = new SecuritySystem();
+        firewall1.updateRules();
+        firewall1.blockIntrusion();
+        firewall1.monitorTraffic();
+
+
+        SmartHomeAppliance smartHomeAppliance1 = new SmartAppliance();
+        smartHomeAppliance1.performTask();
+        smartHomeAppliance1.deactivate();smartHomeAppliance1.activate();
+        SmartDevice smartDevice2 = new SmartAppliance();
+        smartDevice2.turnOff();
+        smartDevice2.turnOn();
+        smartDevice2.operate();
+
+
+        SmartFarm smartFarm1 = new SmartCar();
+        smartFarm1.monitorCrops();
+        smartFarm1.automateIrrigation();
+        smartFarm1.analyzeSoil();
+        SmartDevice smartDevice3 = new SmartCar();
+        smartDevice3.operate();
+        smartDevice3.turnOff();smartDevice3.turnOn();
+
+
+        SmartHomeAppliance smartHomeAppliance2 = new SmartHomeHub();
+        smartHomeAppliance2.activate();
+        smartHomeAppliance2.deactivate();
+        smartHomeAppliance2.performTask();
+        SmartDevice smartDevice4 = new SmartHomeHub();
+        smartDevice4.turnOn();
+        smartDevice4.turnOff();
+        smartDevice4.operate();
+
+        Drone drone1 = new SurveillanceDrone();
+        drone1.takeOff();
+        drone1.land();
+        drone1.captureVideo();
+        SurveillanceSystem surveillanceSystem1 = new SurveillanceDrone();
+        surveillanceSystem1.startMonitoring();
+        surveillanceSystem1.recordFootage();
+        surveillanceSystem1.alertSecurity();
+
+        Telemedicine telemedicine2 = new Telecom();
+        telemedicine2.conductVideoCall();
+        telemedicine2.scheduleConsultation();
+        telemedicine2.transmitMedicalRecords();
+        Telescope telescope1 = new Telecom();
+        telescope1.trackCelestialBody();
+        telescope1.captureImage();telescope1.adjustLens();
+
+        Train train1 = new TrainCafe();
+        train1.boardPassengers();
+        train1.runTrain();
+        train1.announceStop();
+        CafeService cafeService1 = new TrainCafe();
+        cafeService1.takeOrder();
+        cafeService1.serveCustomer();
+        cafeService1.prepareOrder();
 
     }
 }
