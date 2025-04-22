@@ -40,11 +40,12 @@ public class Runner extends Object {
         officeRules.wearID();
         officeRules.wearShoue();
 
-
+        System.out.println("-----------------");
         DroneSprayer droneSprayer = new AgroDrone();
         droneSprayer.returnHome();
         droneSprayer.sprayPesticides();
         droneSprayer.takeOff();
+        droneSprayer.reiseSpeed();
 
 
         SmartWatch smartWatch = new AppleWatch();

@@ -17,4 +17,12 @@ public class AgroDrone implements DroneSprayer {
     public void returnHome() {
         System.out.println("AgroDrone returning to its base.");
     }
+
+    @Override
+    public void reiseSpeed() {
+        System.out.println(
+                "reiseSpeed method in Agro Drone"
+        );
+
+    }
 }
