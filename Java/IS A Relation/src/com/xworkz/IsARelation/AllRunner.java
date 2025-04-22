@@ -5,7 +5,7 @@ import com.xworkz.IsARelation.external.*;
 import com.xworkz.IsARelation.internal.*;
 
 public class AllRunner {
-    public static <MountainUtil> void main(String[] args) {
+    public static  void main(String[] args) {
         System.out.println("******************  1   ***************");
         Forest forest = new Forest();
         River river = new Amazon();
