@@ -3,7 +3,6 @@ package com.xworkz.collectiondto.runner;
 import com.xworkz.collectiondto.dto.HospitalDTO;
 import com.xworkz.collectiondto.dto.LibraryDTO;
 import com.xworkz.collectiondto.dto.RapidoDTO;
-
 import java.util.ArrayList;
 import java.util.Collection;
 
