@@ -5,6 +5,7 @@ import com.xworkz.collection.external.Friends;
 import java.util.Scanner;
 
 public class CollectionRunner {
+
     public static void main(String[] args) {
         Friends friend1 = new Friends();
         Scanner scanner = new Scanner(System.in);
