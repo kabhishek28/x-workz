@@ -17,7 +17,7 @@ public class CollectionDemo {
         System.out.println("Equals method :" + collection.equals("ravi"));
         System.out.println("hashcode : " + collection.hashCode());
         System.out.println("Collection is empty : " + collection.isEmpty());
-        collection.remove("Removeing the Abhi : "+ "Abhi");
+        collection.remove( "Abhi");
         System.out.println("Printing collection : " + collection);
 //        Iterable<String > iterable = new ArrayList<>();
 //        System.out.println("Iterator : " + collection.iterator());
