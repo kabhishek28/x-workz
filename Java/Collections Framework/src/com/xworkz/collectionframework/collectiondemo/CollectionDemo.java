@@ -19,12 +19,31 @@ public class CollectionDemo {
         System.out.println("Collection is empty : " + collection.isEmpty());
         collection.remove("Removeing the Abhi : "+ "Abhi");
         System.out.println("Printing collection : " + collection);
-        Iterable<String > iterable = new ArrayList<>();
-        System.out.println("Iterator : " + collection.iterator());
+//        Iterable<String > iterable = new ArrayList<>();
+//        System.out.println("Iterator : " + collection.iterator());
         System.out.println("Colllectio size :" + collection.size());
-        collection.clear();
+//        collection.clear();
         System.out.println("after Clearig collection :" + collection);
 
+Collection<String> collection1 = new ArrayList<>();
+collection1.add("vinutha");
+collection1.add("reka");
+collection1.add("roopa");
+//collection.addAll(collection1);
+        System.out.println("collection1 : " + collection1);
+        System.out.println("collection : "+ collection);
+
+        System.out.println("cheking if both collection are equals are not :" + collection.equals(collection1));
+        System.out.println("checking if collection containes collection1 : " + collection.contains(collection1));
+        collection.add("vinutha");
+        collection.add("reka");
+        collection.add("roopa");
+        System.out.println(collection);
+        System.out.println("checking if collection containes collection1 : " + collection.containsAll(collection1));
+        Iterator<String> iterator = collection.iterator();
+        while(iterator.hasNext()){
+            System.out.println("using Iterator : " + iterator.next());
+        }
 
     }
 }
