@@ -55,7 +55,7 @@ public class CreateMap {
 
 //        for each
         for(Map.Entry<String,Integer> entry : map.entrySet()){
-            System.out.println("key -> " + entry.getKey() + "value -> " + entry.getValue());
+            System.out.println("keys -> " + entry.getKey() + "values -> " + entry.getValue());
         }
 
 //        using iterator
