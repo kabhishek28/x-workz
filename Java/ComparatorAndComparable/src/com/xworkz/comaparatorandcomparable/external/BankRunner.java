@@ -26,14 +26,8 @@ public class BankRunner {
         list.add(bankDTO3);
         list.add(bankDTO4);
         list.add(bankDTO5);
-
-
         Collections.sort(list);
-
-
         System.out.println(list);
-
-
 
     }
 }
