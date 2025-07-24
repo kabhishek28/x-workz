@@ -7,6 +7,8 @@ import java.lang.reflect.InvocationTargetException;
 
 public class MugRunner {
     public static void main(String[] args) {
+
+//        using Class.forName() and Reflection
         try {
             Class<?> clazz = Class.forName("com.xworkz.object.external.Mug");
             Constructor<?> constructor = clazz.getDeclaredConstructor();
