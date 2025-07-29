@@ -69,14 +69,14 @@ public class Country {
 //        collection.stream().filter((c)->c.toLowerCase().);
 
 
-        System.out.println("-------------------------12. Stream and find palindrome country--------------------------");
-        collection
-                .stream()
-                .filter(c->palindrom(c).);
+//        System.out.println("-------------------------12. Stream and find palindrome country--------------------------");
+//        collection
+//                .stream()
+//                .filter(c->palindrom(c).);
 
-        public boolean palindrom(String name ){
-
-        }
+//        public boolean palindrom(String name ){
+//
+//        }
 
 
 
